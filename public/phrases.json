@@ -1,0 +1,2570 @@
+[
+  {
+    "id": 1,
+    "category": "Cinema",
+    "phrase": "LUKE SCOPRE DI ESSERE FIGLIO DI ANAKIN",
+    "description": "Colpo di scena in Star Wars"
+  },
+  {
+    "id": 2,
+    "category": "Arte",
+    "phrase": "MONNA LISA NON HA LE SOPRACCIGLIA",
+    "description": "Particolare del capolavoro di Leonardo"
+  },
+  {
+    "id": 3,
+    "category": "Musica",
+    "phrase": "FREDDIE MERCURY NACQUE A ZANZIBAR",
+    "description": "Origini del leader dei Queen"
+  },
+  {
+    "id": 4,
+    "category": "Arte",
+    "phrase": "VAN GOGH SI TAGLIÒ UN ORECCHIO",
+    "description": "Gesto estremo dell'artista olandese"
+  },
+  {
+    "id": 5,
+    "category": "Cinema",
+    "phrase": "HITCHCOCK APPARE IN TUTTI I SUOI FILM",
+    "description": "Tradizione del regista britannico"
+  },
+  {
+    "id": 6,
+    "category": "Musica",
+    "phrase": "MOZART COMPOSE LA PRIMA OPERA A SEI ANNI",
+    "description": "Precocità del genio austriaco"
+  },
+  {
+    "id": 7,
+    "category": "Arte",
+    "phrase": "LA CAPPELLA SISTINA RICHIESE QUATTRO ANNI",
+    "description": "Tempi del lavoro di Michelangelo"
+  },
+  {
+    "id": 8,
+    "category": "Letteratura",
+    "phrase": "SHAKESPEARE INVENTÒ MIGLIAIA DI PAROLE INGLESI",
+    "description": "Eredità linguistica del Bardo"
+  },
+  {
+    "id": 9,
+    "category": "Arte",
+    "phrase": "PICASSO DIPINSE GUERNICA IN UN MESE",
+    "description": "Rapidità creativa dello spagnolo"
+  },
+  {
+    "id": 10,
+    "category": "Cinema",
+    "phrase": "STANLEY KUBRICK GIRÒ CENTINAIA DI CIAK",
+    "description": "Perfezionismo del regista americano"
+  },
+  {
+    "id": 11,
+    "category": "Musica",
+    "phrase": "BEETHOVEN ERA COMPLETAMENTE SORDO A CINQUANTA",
+    "description": "Tragedia del compositore tedesco"
+  },
+  {
+    "id": 12,
+    "category": "Arte",
+    "phrase": "LA GIOCONDA FU RUBATA NEL MILLENOVECENTO",
+    "description": "Furto celebre al Louvre"
+  },
+  {
+    "id": 13,
+    "category": "Musica",
+    "phrase": "ELVIS NON SCRISSE MAI UNA CANZONE",
+    "description": "Curiosità sul Re del Rock"
+  },
+  {
+    "id": 14,
+    "category": "Arte",
+    "phrase": "CARAVAGGIO UCCISE UN UOMO IN RISSA",
+    "description": "Vita violenta del pittore barocco"
+  },
+  {
+    "id": 15,
+    "category": "Letteratura",
+    "phrase": "TOLKIEN CREÒ LINGUE COMPLETE PER I SUOI LIBRI",
+    "description": "Dedizione dell'autore fantasy"
+  },
+  {
+    "id": 16,
+    "category": "Cinema",
+    "phrase": "KUBRICK DISTRUSSE I SET DI SHINING",
+    "description": "Scelta definitiva del regista"
+  },
+  {
+    "id": 17,
+    "category": "Musica",
+    "phrase": "CHOPIN COMPOSÈ QUASI SOLO PER PIANOFORTE",
+    "description": "Specializzazione del compositore polacco"
+  },
+  {
+    "id": 18,
+    "category": "Arte",
+    "phrase": "LEONARDO ERA VEGETARIANO E AMBIDESTRO",
+    "description": "Peculiarità del genio rinascimentale"
+  },
+  {
+    "id": 19,
+    "category": "Letteratura",
+    "phrase": "HEMINGWAY SCRISSE IN PIEDI DAVANTI AL LEGGIO",
+    "description": "Abitudine dello scrittore americano"
+  },
+  {
+    "id": 20,
+    "category": "Arte",
+    "phrase": "DALÌ EVITAVA DI DORMIRE CON UN CUCCHIAIO",
+    "description": "Tecnica surrealista per la creatività"
+  },
+  {
+    "id": 21,
+    "category": "Cinema",
+    "phrase": "MARILYN MONROE LEGGEVA DOSTOEVSKIJ E JOYCE",
+    "description": "Lato colto dell'attrice hollywoodiana"
+  },
+  {
+    "id": 22,
+    "category": "Arte",
+    "phrase": "MICHELANGELO SCOLPÌ IL DAVID DA MARMO SCARTATO",
+    "description": "Rivalutazione del blocco imperfetto"
+  },
+  {
+    "id": 23,
+    "category": "Cinema",
+    "phrase": "FELLINI VIDE LA DOLCE VITA IN SOGNO",
+    "description": "Ispirazione onirica del regista"
+  },
+  {
+    "id": 24,
+    "category": "Arte",
+    "phrase": "BANKSY RIMANE ANONIMO DA OLTRE VENT'ANNI",
+    "description": "Mistero dello street artist britannico"
+  },
+  {
+    "id": 25,
+    "category": "Letteratura",
+    "phrase": "KAFKA CHIESE DI BRUCIARE TUTTE LE OPERE",
+    "description": "Volontà dello scrittore praghese"
+  },
+  {
+    "id": 26,
+    "category": "Arte",
+    "phrase": "MONET DIPINSE NINFEE PER TRENT'ANNI",
+    "description": "Ossessione dell'impressionista francese"
+  },
+  {
+    "id": 27,
+    "category": "Cultura Generale",
+    "phrase": "CHARLIE CHAPLIN PERSE A UN CONCORSO DI SOSIA",
+    "description": "Ironia sulla celebrità del comico"
+  },
+  {
+    "id": 28,
+    "category": "Musica",
+    "phrase": "VIVALDI ERA PRETE SOPRANNOMINATO ROSSO",
+    "description": "Doppia vita del compositore veneziano"
+  },
+  {
+    "id": 29,
+    "category": "Arte",
+    "phrase": "FRIDA KAHLO EBBE UN GRAVE INCIDENTE ADOLESCENTE",
+    "description": "Trauma che segnò la pittrice messicana"
+  },
+  {
+    "id": 30,
+    "category": "Cinema",
+    "phrase": "ORSON WELLES AVEVA SOLO VENTICINQUE ANNI",
+    "description": "Età alla regia di Quarto Potere"
+  },
+  {
+    "id": 31,
+    "category": "Arte",
+    "phrase": "BASQUIAT INIZIÒ COME WRITER DI STRADA",
+    "description": "Origini underground dell'artista"
+  },
+  {
+    "id": 32,
+    "category": "Musica",
+    "phrase": "WAGNER SCRISSE OPERE DI CINQUE ORE",
+    "description": "Ambizione del compositore tedesco"
+  },
+  {
+    "id": 33,
+    "category": "Letteratura",
+    "phrase": "DANTE SCRISSE LA COMMEDIA IN ESILIO",
+    "description": "Condizione del poeta fiorentino"
+  },
+  {
+    "id": 34,
+    "category": "Cinema",
+    "phrase": "KUBRICK MANDAVA LETTERE ANONIME AI CRITICI",
+    "description": "Ossessione del regista per le recensioni"
+  },
+  {
+    "id": 35,
+    "category": "Storia",
+    "phrase": "COCO CHANEL INVENTÒ IL TUBINO NERO",
+    "description": "Rivoluzione nella moda femminile"
+  },
+  {
+    "id": 36,
+    "category": "Arte",
+    "phrase": "RENOIR DIPINGEVA CON PENNELLI LEGATI ALLE MANI",
+    "description": "Artrite dell'impressionista anziano"
+  },
+  {
+    "id": 37,
+    "category": "Arte",
+    "phrase": "BOTTICELLI BRUCIÒ ALCUNI SUOI QUADRI",
+    "description": "Crisi religiosa del pittore rinascimentale"
+  },
+  {
+    "id": 38,
+    "category": "Musica",
+    "phrase": "LENNON COMPOSÈ IMAGINE IN VENTI MINUTI",
+    "description": "Rapidità creativa del Beatle"
+  },
+  {
+    "id": 39,
+    "category": "Arte",
+    "phrase": "RODIN VENNE BOCCIATO ALLE BELLE ARTI",
+    "description": "Inizio difficile dello scultore francese"
+  },
+  {
+    "id": 40,
+    "category": "Letteratura",
+    "phrase": "BORGES ERA QUASI CIECO NEGLI ULTIMI ANNI",
+    "description": "Cecità dello scrittore argentino"
+  },
+  {
+    "id": 41,
+    "category": "Musica",
+    "phrase": "JIMI HENDRIX SUONAVA LA CHITARRA AL CONTRARIO",
+    "description": "Particolarità del chitarrista mancino"
+  },
+  {
+    "id": 42,
+    "category": "Arte",
+    "phrase": "CEZANNE FU RIFIUTATO DAL SALON PER ANNI",
+    "description": "Incomprensione verso il post impressionista"
+  },
+  {
+    "id": 43,
+    "category": "Musica",
+    "phrase": "PUCCINI MORÌ PRIMA DI FINIRE TURANDOT",
+    "description": "Opera incompiuta del compositore italiano"
+  },
+  {
+    "id": 44,
+    "category": "Letteratura",
+    "phrase": "PROUST SCRISSE CERCANDO IL TEMPO PERDUTO A LETTO",
+    "description": "Metodo di lavoro dello scrittore francese"
+  },
+  {
+    "id": 45,
+    "category": "Cinema",
+    "phrase": "MARILYN CANTAVA SENZA SAPER LEGGERE MUSICA",
+    "description": "Talento naturale dell'attrice cantante"
+  },
+  {
+    "id": 46,
+    "category": "Arte",
+    "phrase": "CARAVAGGIO FUGGIVA SPESSO DALLA GIUSTIZIA",
+    "description": "Vita irrequieta del pittore lombardo"
+  },
+  {
+    "id": 47,
+    "category": "Musica",
+    "phrase": "VERDI VENNE BOCCIATO AL CONSERVATORIO DI MILANO",
+    "description": "Rifiuto iniziale del compositore italiano"
+  },
+  {
+    "id": 48,
+    "category": "Arte",
+    "phrase": "ESCHER CREÒ SCALINATE CHE SALGONO ALL'INFINITO",
+    "description": "Illusioni geometriche dell'artista olandese"
+  },
+  {
+    "id": 49,
+    "category": "Arte",
+    "phrase": "GOYA DIPINSE LE OPERE NERE SULLE PARETI",
+    "description": "Follia creativa del pittore spagnolo"
+  },
+  {
+    "id": 50,
+    "category": "Musica",
+    "phrase": "BACH EBBE VENTI FIGLI DA DUE MOGLI",
+    "description": "Vita familiare del compositore barocco"
+  },
+  {
+    "id": 51,
+    "category": "Arte",
+    "phrase": "KLIMT NON LASCIÒ MAI LA SUA VIENNA",
+    "description": "Attaccamento del pittore austriaco"
+  },
+  {
+    "id": 52,
+    "category": "Letteratura",
+    "phrase": "CAMUS MORÌ IN INCIDENTE CON MANOSCRITTO IN TASCA",
+    "description": "Fine tragica dello scrittore francese"
+  },
+  {
+    "id": 53,
+    "category": "Musica",
+    "phrase": "SCHUBERT SCRISSE SEICENTO CANZONI IN VITA",
+    "description": "Prolificità del compositore viennese"
+  },
+  {
+    "id": 54,
+    "category": "Musica",
+    "phrase": "ANDY WARHOL COLLEZIONAVA PARRUCCHE E BISCOTTI",
+    "description": "Stranezze dell'artista pop americano"
+  },
+  {
+    "id": 55,
+    "category": "Arte",
+    "phrase": "MUNCH DIPINSE L'URLO IN QUATTRO VERSIONI",
+    "description": "Ossessione dell'espressionista norvegese"
+  },
+  {
+    "id": 56,
+    "category": "Letteratura",
+    "phrase": "DOSTOEVSKIJ GIOCAVA D'AZZARDO COMPULSIVAMENTE",
+    "description": "Vizio dello scrittore russo"
+  },
+  {
+    "id": 57,
+    "category": "Letteratura",
+    "phrase": "MARY SHELLEY SCRISSE FRANKENSTEIN A DICIOTTO ANNI",
+    "description": "Giovinezza della scrittrice gotica"
+  },
+  {
+    "id": 58,
+    "category": "Arte",
+    "phrase": "TURNER CHIESE DI ESSERE LEGATO ALL'ALBERO",
+    "description": "Pittore romantico nella tempesta marina"
+  },
+  {
+    "id": 59,
+    "category": "Musica",
+    "phrase": "PAGANINI ERA SOPRANNOMINATO IL VIOLINISTA DEL DIAVOLO",
+    "description": "Leggenda sul virtuoso genovese"
+  },
+  {
+    "id": 60,
+    "category": "Arte",
+    "phrase": "MAGRITTE INDOSSAVA SEMPRE GIACCA E CRAVATTA",
+    "description": "Aspetto borghese del surrealista belga"
+  },
+  {
+    "id": 61,
+    "category": "Letteratura",
+    "phrase": "DICKENS CAMMINAVA VENTI CHILOMETRI AL GIORNO",
+    "description": "Abitudine dello scrittore vittoriano"
+  },
+  {
+    "id": 62,
+    "category": "Letteratura",
+    "phrase": "MANZONI RISCRISSE I PROMESSI SPOSI NELL'ARNO",
+    "description": "Revisione linguistica del romanziere"
+  },
+  {
+    "id": 63,
+    "category": "Musica",
+    "phrase": "ROSSINI SMISE DI COMPORRE A TRENTASETTE ANNI",
+    "description": "Ritiro precoce del compositore pesarese"
+  },
+  {
+    "id": 64,
+    "category": "Arte",
+    "phrase": "KAHLO DIPINSE PRINCIPALMENTE AUTORITRATTI",
+    "description": "Introspezione della pittrice messicana"
+  },
+  {
+    "id": 65,
+    "category": "Letteratura",
+    "phrase": "PINTER FACEVA LUNGHE PAUSE NEI DIALOGHI",
+    "description": "Caratteristica del teatro dell'assurdo"
+  },
+  {
+    "id": 66,
+    "category": "Arte",
+    "phrase": "VELAZQUEZ DIPINSE SE STESSO NELLE MENINAS",
+    "description": "Autoritratto nascosto nel capolavoro spagnolo"
+  },
+  {
+    "id": 67,
+    "category": "Letteratura",
+    "phrase": "WILDE MORÌ IN MISERIA A PARIGI",
+    "description": "Caduta dello scrittore irlandese"
+  },
+  {
+    "id": 68,
+    "category": "Musica",
+    "phrase": "TCHAIKOVSKY VENNE FINANZIATO DA UNA VEDOVA",
+    "description": "Mecenate misteriosa del compositore russo"
+  },
+  {
+    "id": 69,
+    "category": "Arte",
+    "phrase": "MIRÒ VOLEVA ASSASSINARE LA PITTURA TRADIZIONALE",
+    "description": "Provocazione del surrealista catalano"
+  },
+  {
+    "id": 70,
+    "category": "Letteratura",
+    "phrase": "POE MORÌ IN CIRCOSTANZE MISTERIOSE A QUARANTA",
+    "description": "Fine enigmatica dello scrittore gotico"
+  },
+  {
+    "id": 71,
+    "category": "Arte",
+    "phrase": "BERNINI SCOLPÌ APOLLO E DAFNE DA GIOVANE",
+    "description": "Precocità dello scultore barocco"
+  },
+  {
+    "id": 72,
+    "category": "Letteratura",
+    "phrase": "FITZGERALD SCRISSE GATSBY IN SOLI MESI",
+    "description": "Rapidità dell'autore americano"
+  },
+  {
+    "id": 73,
+    "category": "Arte",
+    "phrase": "KANDINSKY VEDEVA I COLORI NELLA MUSICA",
+    "description": "Sinestesia del pittore astrattista"
+  },
+  {
+    "id": 74,
+    "category": "Letteratura",
+    "phrase": "JOYCE SCRISSE ULISSE IN SETTE ANNI",
+    "description": "Lavoro lungo dello scrittore irlandese"
+  },
+  {
+    "id": 75,
+    "category": "Musica",
+    "phrase": "CHAGALL DIPINSE IL SOFFITTO DELL'OPERA DI PARIGI",
+    "description": "Incarico prestigioso per l'artista russo"
+  },
+  {
+    "id": 76,
+    "category": "Letteratura",
+    "phrase": "RIMBAUD SMISE DI SCRIVERE A VENT'ANNI",
+    "description": "Abbandono precoce del poeta francese"
+  },
+  {
+    "id": 77,
+    "category": "Arte",
+    "phrase": "ROTHKO SI SUICIDÒ NEL SUO STUDIO",
+    "description": "Tragedia dell'espressionista astratto"
+  },
+  {
+    "id": 78,
+    "category": "Letteratura",
+    "phrase": "VERGA SCRISSE I MALAVOGLIA IN DIALETTO SICILIANO",
+    "description": "Scelta linguistica del verista italiano"
+  },
+  {
+    "id": 79,
+    "category": "Storia",
+    "phrase": "LISZT FACEVA SVENIRE LE DONNE AI CONCERTI",
+    "description": "Magnetismo del pianista ungherese"
+  },
+  {
+    "id": 80,
+    "category": "Cultura Generale",
+    "phrase": "GAUDÍ MORÌ INVESTITO DA UN TRAM A BARCELLONA",
+    "description": "Fine dell'architetto catalano"
+  },
+  {
+    "id": 81,
+    "category": "Letteratura",
+    "phrase": "WOOLF SI RIEMPÌ LE TASCHE DI SASSI",
+    "description": "Suicidio della scrittrice britannica"
+  },
+  {
+    "id": 82,
+    "category": "Letteratura",
+    "phrase": "RAVEL SCRISSE BOLERO COME ESERCIZIO TECNICO",
+    "description": "Origine del brano ipnotico francese"
+  },
+  {
+    "id": 83,
+    "category": "Arte",
+    "phrase": "DEGAS LAVORAVA PRINCIPALMENTE A PASTELLO",
+    "description": "Tecnica preferita dall'impressionista"
+  },
+  {
+    "id": 84,
+    "category": "Letteratura",
+    "phrase": "NABOKOV COLLEZIONAVA E STUDIAVA FARFALLE",
+    "description": "Passione dello scrittore russo-americano"
+  },
+  {
+    "id": 85,
+    "category": "Arte",
+    "phrase": "ARTEMISIA GENTILESCHI DIPINSE LA SUA VENDETTA",
+    "description": "Violenza nell'arte barocca femminile"
+  },
+  {
+    "id": 86,
+    "category": "Musica",
+    "phrase": "SCHUMANN IMPAZZÍ TENTANDO DI ANNEGARSI NEL RENO",
+    "description": "Follia del compositore romantico"
+  },
+  {
+    "id": 87,
+    "category": "Storia",
+    "phrase": "POLLOCK GOCCIOLAVA COLORE SULLE TELE A TERRA",
+    "description": "Tecnica action painting americana"
+  },
+  {
+    "id": 88,
+    "category": "Cultura Generale",
+    "phrase": "KIPLING VINSE IL NOBEL A QUARANTADUE ANNI",
+    "description": "Più giovane premio letterario della storia"
+  },
+  {
+    "id": 89,
+    "category": "Arte",
+    "phrase": "GAUGUIN ABBANDONÒ MOGLIE E FIGLI PER TAHITI",
+    "description": "Fuga del pittore post impressionista"
+  },
+  {
+    "id": 90,
+    "category": "Letteratura",
+    "phrase": "DYLAN THOMAS BEVVE DICIOTTO WHISKY IN UNA NOTTE",
+    "description": "Eccesso fatale del poeta gallese"
+  },
+  {
+    "id": 91,
+    "category": "Arte",
+    "phrase": "TIZIANO VISSE E DIPINSE FINO A NOVANTA",
+    "description": "Longevità del maestro veneziano"
+  },
+  {
+    "id": 92,
+    "category": "Letteratura",
+    "phrase": "YEATS RICEVETTE IL NOBEL A SESSANTADUE ANNI",
+    "description": "Riconoscimento tardivo al poeta irlandese"
+  },
+  {
+    "id": 93,
+    "category": "Arte",
+    "phrase": "HOPPER DIPINSE SOLITUDINE URBANA AMERICANA",
+    "description": "Tema ricorrente del realista moderno"
+  },
+  {
+    "id": 94,
+    "category": "Letteratura",
+    "phrase": "PIRANDELLO VINSE IL NOBEL NEL TRENTAQUATTRO",
+    "description": "Premio al drammaturgo siciliano"
+  },
+  {
+    "id": 95,
+    "category": "Musica",
+    "phrase": "MATISSE RITORNÒ A DIPINGERE DOPO OPERAZIONE",
+    "description": "Ritagli colorati dell'artista anziano"
+  },
+  {
+    "id": 96,
+    "category": "Letteratura",
+    "phrase": "CERVANTES PERSE UN BRACCIO IN BATTAGLIA NAVALE",
+    "description": "Ferita dello scrittore spagnolo"
+  },
+  {
+    "id": 97,
+    "category": "Arte",
+    "phrase": "VERMEER DIPINSE SOLO QUARANTACINQUE QUADRI NOTI",
+    "description": "Produzione limitata del maestro olandese"
+  },
+  {
+    "id": 98,
+    "category": "Letteratura",
+    "phrase": "HEMINGWAY VINSE IL NOBEL NEL CINQUANTAQUATTRO",
+    "description": "Premio allo scrittore americano"
+  },
+  {
+    "id": 99,
+    "category": "Arte",
+    "phrase": "FRANCIS BACON DIPINGEVA CARNE E VIOLENZA",
+    "description": "Espressionismo brutale del britannico"
+  },
+  {
+    "id": 100,
+    "category": "Letteratura",
+    "phrase": "STEINBECK SCRISSE FURORE DURANTE LA DEPRESSIONE",
+    "description": "Capolavoro sociale dello scrittore americano"
+  },
+  {
+    "id": 101,
+    "category": "Musica",
+    "phrase": "HOCKNEY DIPINSE PISCINE CALIFORNIANE AZZURRE",
+    "description": "Tema iconico del pop artist britannico"
+  },
+  {
+    "id": 102,
+    "category": "Letteratura",
+    "phrase": "COLERIDGE SCRISSE KUBLA KHAN IN SOGNO D'OPPIO",
+    "description": "Visione del poeta romantico inglese"
+  },
+  {
+    "id": 103,
+    "category": "Arte",
+    "phrase": "MIRÒ USÒ OGGETTI TROVATI NELLE SCULTURE",
+    "description": "Assemblage del surrealista catalano"
+  },
+  {
+    "id": 104,
+    "category": "Storia",
+    "phrase": "SARTRE RIFIUTÒ IL NOBEL NEL SESSANTAQUATTRO",
+    "description": "Gesto politico del filosofo francese"
+  },
+  {
+    "id": 105,
+    "category": "Arte",
+    "phrase": "BRAQUE INVENTÒ IL CUBISMO CON PICASSO",
+    "description": "Rivoluzione artistica del Novecento"
+  },
+  {
+    "id": 106,
+    "category": "Letteratura",
+    "phrase": "FAULKNER BEVEVA BOURBON MENTRE SCRIVEVA",
+    "description": "Abitudine dello scrittore del Sud"
+  },
+  {
+    "id": 107,
+    "category": "Arte",
+    "phrase": "GIACOMETTI ALLUNGAVA LE FIGURE UMANE",
+    "description": "Stile dello scultore svizzero"
+  },
+  {
+    "id": 108,
+    "category": "Letteratura",
+    "phrase": "LOWRY SCRISSE SOTTO IL VULCANO IN MESSICO",
+    "description": "Ambientazione del capolavoro modernista"
+  },
+  {
+    "id": 109,
+    "category": "Arte",
+    "phrase": "DE CHIRICO CREÒ PIAZZE METAFISICHE DESERTE",
+    "description": "Pittura enigmatica dell'artista italiano"
+  },
+  {
+    "id": 110,
+    "category": "Cultura Generale",
+    "phrase": "MORRISON MORÌ A PARIGI A VENTISETTE ANNI",
+    "description": "Fine del cantante dei Doors"
+  },
+  {
+    "id": 111,
+    "category": "Arte",
+    "phrase": "MALEVICH DIPINSE UN QUADRATO NERO SU BIANCO",
+    "description": "Suprematismo russo radicale"
+  },
+  {
+    "id": 112,
+    "category": "Letteratura",
+    "phrase": "KEROUAC SCRISSE SULLA STRADA IN TRE SETTIMANE",
+    "description": "Flusso creativo della Beat Generation"
+  },
+  {
+    "id": 113,
+    "category": "Arte",
+    "phrase": "WHISTLER DIPINSE LA MADRE IN GRIGIO E NERO",
+    "description": "Ritratto austero dell'artista americano"
+  },
+  {
+    "id": 114,
+    "category": "Letteratura",
+    "phrase": "ELIOT SCRISSE LA TERRA DESOLATA NEL VENTIDUE",
+    "description": "Poema modernista del dopoguerra"
+  },
+  {
+    "id": 115,
+    "category": "Arte",
+    "phrase": "KLEE DIPINSE CON COLORI PRIMARI E FORME PURE",
+    "description": "Astrazione lirica dello svizzero"
+  },
+  {
+    "id": 116,
+    "category": "Cultura Generale",
+    "phrase": "GINSBERG URLÒ CONTRO LA SOCIETÀ AMERICANA",
+    "description": "Manifesto della Beat Generation"
+  },
+  {
+    "id": 117,
+    "category": "Cultura Generale",
+    "phrase": "MONDRIAN USÒ SOLO LINEE E COLORI PRIMARI",
+    "description": "Neoplasticismo olandese geometrico"
+  },
+  {
+    "id": 118,
+    "category": "Letteratura",
+    "phrase": "PLATH SI UCCISE COL GAS A TRENT'ANNI",
+    "description": "Tragedia della poetessa confessionale"
+  },
+  {
+    "id": 119,
+    "category": "Musica",
+    "phrase": "LEGER DIPINSE MACCHINE E OPERAI MECCANICI",
+    "description": "Modernità del cubista francese"
+  },
+  {
+    "id": 120,
+    "category": "Letteratura",
+    "phrase": "LORCA FU FUCILATO DAI FRANCHISTI NEL TRENTASEI",
+    "description": "Assassinio del poeta spagnolo"
+  },
+  {
+    "id": 121,
+    "category": "Arte",
+    "phrase": "MORANDI DIPINSE NATURE MORTE PER TUTTA LA VITA",
+    "description": "Ossessione del pittore bolognese"
+  },
+  {
+    "id": 122,
+    "category": "Letteratura",
+    "phrase": "PAVESE SI SUICIDÒ IN ALBERGO CON BARBITURICI",
+    "description": "Fine dello scrittore piemontese"
+  },
+  {
+    "id": 123,
+    "category": "Arte",
+    "phrase": "BALTHUS DIPINSE ADOLESCENTI IN POSE AMBIGUE",
+    "description": "Controversia del pittore franco-polacco"
+  },
+  {
+    "id": 124,
+    "category": "Letteratura",
+    "phrase": "MANN SCRISSE LA MONTAGNA INCANTATA IN SANATORIO",
+    "description": "Ambientazione autobiografica tedesca"
+  },
+  {
+    "id": 125,
+    "category": "Musica",
+    "phrase": "KOONS CREA SCULTURE DA PALLONCINI GIGANTI",
+    "description": "Kitsch pop dell'artista americano"
+  },
+  {
+    "id": 126,
+    "category": "Letteratura",
+    "phrase": "MISHIMA FECE SEPPUKU PUBBLICO NEL SETTANTA",
+    "description": "Suicidio rituale dello scrittore giapponese"
+  },
+  {
+    "id": 127,
+    "category": "Arte",
+    "phrase": "KIEFER USA PAGLIA E PIOMBO NEI QUADRI",
+    "description": "Materiali del pittore tedesco contemporaneo"
+  },
+  {
+    "id": 128,
+    "category": "Letteratura",
+    "phrase": "YOURCENAR FU LA PRIMA DONNA ALL'ACADEMIE",
+    "description": "Riconoscimento alla scrittrice belga"
+  },
+  {
+    "id": 129,
+    "category": "Cultura Generale",
+    "phrase": "HIRST MISE UNO SQUALO IN FORMALDEIDE",
+    "description": "Provocazione del Young British Artist"
+  },
+  {
+    "id": 130,
+    "category": "Musica",
+    "phrase": "CALVINO SCRISSE LE CITTÀ INVISIBILI TARDI",
+    "description": "Opera metafisica dello scrittore italiano"
+  },
+  {
+    "id": 131,
+    "category": "Cultura Generale",
+    "phrase": "CATTELAN APPESE IL PAPA COLPITO DA METEORITE",
+    "description": "Installazione provocatoria italiana"
+  },
+  {
+    "id": 132,
+    "category": "Letteratura",
+    "phrase": "KUNDERA LASCIÒ LA CECOSLOVACCHIA PER PARIGI",
+    "description": "Esilio dello scrittore dissidente"
+  },
+  {
+    "id": 133,
+    "category": "Cultura Generale",
+    "phrase": "MAPPLETHORPE FOTOGRAFÒ FIORI E CORPI NUDI",
+    "description": "Dualità del fotografo americano"
+  },
+  {
+    "id": 134,
+    "category": "Letteratura",
+    "phrase": "COETZEE VINSE DUE VOLTE IL BOOKER PRIZE",
+    "description": "Record dello scrittore sudafricano"
+  },
+  {
+    "id": 135,
+    "category": "Cultura Generale",
+    "phrase": "SHERMAN SI FOTOGRAFA IN MILLE IDENTITÀ DIVERSE",
+    "description": "Autoritratti trasformisti americani"
+  },
+  {
+    "id": 136,
+    "category": "Storia",
+    "phrase": "PAMUK VINSE IL NOBEL NEL DUEMILA SEI",
+    "description": "Primo turco a ricevere il premio"
+  },
+  {
+    "id": 137,
+    "category": "Cultura Generale",
+    "phrase": "GURSKY FA FOTOGRAFIE MONUMENTALI DI PAESAGGI",
+    "description": "Scala epica del fotografo tedesco"
+  },
+  {
+    "id": 138,
+    "category": "Letteratura",
+    "phrase": "NAIPAUL SCRISSE DELL'IDENTITÀ COLONIALE CARAIBICA",
+    "description": "Tema del Nobel trinidadiano"
+  },
+  {
+    "id": 139,
+    "category": "Arte",
+    "phrase": "KAPOOR SCOLPÌ UNA NUVOLA IN ACCIAIO A CHICAGO",
+    "description": "Scultura riflettente dell'artista indiano"
+  },
+  {
+    "id": 140,
+    "category": "Letteratura",
+    "phrase": "RUSHDIE VISSE NASCOSTO PER UNA FATWA IRANIANA",
+    "description": "Pericolo per lo scrittore britannico"
+  },
+  {
+    "id": 141,
+    "category": "Cultura Generale",
+    "phrase": "TURRELL CREA STANZE DI LUCE COLORATA PURA",
+    "description": "Installazioni percettive americane"
+  },
+  {
+    "id": 142,
+    "category": "Letteratura",
+    "phrase": "AUSTER SCRISSE LA TRILOGIA DI NEW YORK",
+    "description": "Metafiction dello scrittore americano"
+  },
+  {
+    "id": 143,
+    "category": "Cultura Generale",
+    "phrase": "GONZALEZ-TORRES FECE PILE DI CARAMELLE GRATIS",
+    "description": "Arte partecipativa cubano-americana"
+  },
+  {
+    "id": 144,
+    "category": "Musica",
+    "phrase": "MURAKAMI MESCOLA CULTURA POP E SOLITUDINE",
+    "description": "Narrativa del romanziere giapponese"
+  },
+  {
+    "id": 145,
+    "category": "Cultura Generale",
+    "phrase": "ELIASSON PORTÒ IL SOLE NELLA TATE MODERN",
+    "description": "Installazione climatica danese"
+  },
+  {
+    "id": 146,
+    "category": "Letteratura",
+    "phrase": "HOUELLEBECQ SCRISSE CONTRO IL TURISMO SESSUALE",
+    "description": "Provocazione del romanziere francese"
+  },
+  {
+    "id": 147,
+    "category": "Cultura Generale",
+    "phrase": "AI WEIWEI FU ARRESTATO PER ARTE POLITICA",
+    "description": "Dissidenza dell'artista cinese"
+  },
+  {
+    "id": 148,
+    "category": "Letteratura",
+    "phrase": "FERRANTE RIMANE ANONIMA DA TRENT'ANNI ORMAI",
+    "description": "Mistero della scrittrice napoletana"
+  },
+  {
+    "id": 149,
+    "category": "Cultura Generale",
+    "phrase": "ABRAMOVIC VISSE CON IL PUBBLICO PER MESI",
+    "description": "Performance estrema serba"
+  },
+  {
+    "id": 150,
+    "category": "Letteratura",
+    "phrase": "KNAUSGARD SCRISSE SEIMILA PAGINE SULLA SUA VITA",
+    "description": "Autofiction dello scrittore norvegese"
+  },
+  {
+    "id": 151,
+    "category": "Storia",
+    "phrase": "KUSAMA COPRE TUTTO CON POIS COLORATI",
+    "description": "Ossessione della giapponese nonagenaria"
+  },
+  {
+    "id": 152,
+    "category": "Letteratura",
+    "phrase": "MITCHELL SCRISSE L'ATLANTE DELLE NUVOLE COMPLESSO",
+    "description": "Struttura del romanzo britannico"
+  },
+  {
+    "id": 153,
+    "category": "Geografia",
+    "phrase": "RONDINONE PIANTÒ SETTE MONTAGNE NEL DESERTO",
+    "description": "Land art colorata dello svizzero"
+  },
+  {
+    "id": 154,
+    "category": "Letteratura",
+    "phrase": "ISHIGURO SCRISSE DEI CLONI IN UN COLLEGIO",
+    "description": "Distopia del Nobel britannico-giapponese"
+  },
+  {
+    "id": 155,
+    "category": "Cultura Generale",
+    "phrase": "GORMLEY SPARSE CENTOMILA STATUE DI SE STESSO",
+    "description": "Installazione dell'artista britannico"
+  },
+  {
+    "id": 156,
+    "category": "Letteratura",
+    "phrase": "ATWOOD IMMAGINÒ DONNE SCHIAVE IN DISTOPIA",
+    "description": "Visione della scrittrice canadese"
+  },
+  {
+    "id": 157,
+    "category": "Storia",
+    "phrase": "KAPOOR HA IL COPYRIGHT SUL NERO PIÙ NERO",
+    "description": "Controversia sul colore artistico"
+  },
+  {
+    "id": 158,
+    "category": "Letteratura",
+    "phrase": "ECO SCRISSE SUL MEDIOEVO DA SEMIOLOGO ESPERTO",
+    "description": "Erudizione del romanziere italiano"
+  },
+  {
+    "id": 159,
+    "category": "Musica",
+    "phrase": "BANKSY TRITURÀ UN'OPERA APPENA VENDUTA ALL'ASTA",
+    "description": "Performance anti-mercato dello street artist"
+  },
+  {
+    "id": 160,
+    "category": "Letteratura",
+    "phrase": "MCCARTHY SCRISSE LA STRADA SENZA VIRGOLETTE",
+    "description": "Stile minimalista dello scrittore americano"
+  },
+  {
+    "id": 161,
+    "category": "Cultura Generale",
+    "phrase": "KOONS VENDETTE UN CONIGLIO PER NOVANTA MILIONI",
+    "description": "Record per artista vivente"
+  },
+  {
+    "id": 162,
+    "category": "Letteratura",
+    "phrase": "BOLAÑO SCRISSE DETECTIVE SELVAGGI IN MESSICO",
+    "description": "Capolavoro dello scrittore cileno"
+  },
+  {
+    "id": 163,
+    "category": "Musica",
+    "phrase": "HIRST VENDETTE UN TESCHIO DI DIAMANTI",
+    "description": "Opera più costosa di artista vivente"
+  },
+  {
+    "id": 164,
+    "category": "Letteratura",
+    "phrase": "FRANZEN SCRISSE LE CORREZIONI SULLA FAMIGLIA",
+    "description": "Saga americana contemporanea"
+  },
+  {
+    "id": 165,
+    "category": "Storia",
+    "phrase": "SERRA PIEGA LASTRE D'ACCIAIO DI TONNELLATE",
+    "description": "Sculture monumentali americane"
+  },
+  {
+    "id": 166,
+    "category": "Letteratura",
+    "phrase": "DELILLO SCRISSE DELL'ASSASSINIO DI KENNEDY EPICAMENTE",
+    "description": "Romanzo storico dello scrittore americano"
+  },
+  {
+    "id": 167,
+    "category": "Cultura Generale",
+    "phrase": "VIOLA CREA VIDEO DI NASCITA E MORTE LENTI",
+    "description": "Arte temporale americana spirituale"
+  },
+  {
+    "id": 168,
+    "category": "Letteratura",
+    "phrase": "ROTH SCRISSE PASTORAL AMERICANA SUL FALLIMENTO",
+    "description": "Trilogia dello scrittore del New Jersey"
+  },
+  {
+    "id": 169,
+    "category": "Arte",
+    "phrase": "ANSELM KIEFER USA CENERE E STORIA TEDESCA",
+    "description": "Memoria nel pittore contemporaneo"
+  },
+  {
+    "id": 170,
+    "category": "Letteratura",
+    "phrase": "WALLACE SCRISSE INFINITE JEST DI MILLE PAGINE",
+    "description": "Capolavoro postmoderno americano"
+  },
+  {
+    "id": 171,
+    "category": "Cultura Generale",
+    "phrase": "GURSKY VENDE FOTOGRAFIE PER MILIONI DI DOLLARI",
+    "description": "Record fotografico dell'artista tedesco"
+  },
+  {
+    "id": 172,
+    "category": "Letteratura",
+    "phrase": "ZADIE SMITH SCRISSE DENTI BIANCHI A VENTICINQUE",
+    "description": "Esordio della scrittrice londinese"
+  },
+  {
+    "id": 173,
+    "category": "Storia",
+    "phrase": "NAUMAN USA NEON PER SCRIVERE FRASI PROVOCATORIE",
+    "description": "Arte concettuale americana luminosa"
+  },
+  {
+    "id": 174,
+    "category": "Letteratura",
+    "phrase": "TARTT SCRISSE IL CARDELLINO IN UNDICI ANNI",
+    "description": "Lungo lavoro della scrittrice americana"
+  },
+  {
+    "id": 175,
+    "category": "Arte",
+    "phrase": "POLKE MESCOLAVA MATERIALI TOSSICI NEI QUADRI",
+    "description": "Sperimentazione del pittore tedesco"
+  },
+  {
+    "id": 176,
+    "category": "Letteratura",
+    "phrase": "WHITEHEAD VINSE IL PULITZER PER FERROVIA SOTTERRANEA",
+    "description": "Premio allo scrittore afroamericano"
+  },
+  {
+    "id": 177,
+    "category": "Arte",
+    "phrase": "RICHTER DIPINSE FOTO SFOCATE E ASTRAZIONI",
+    "description": "Dualità del pittore tedesco vivente"
+  },
+  {
+    "id": 178,
+    "category": "Letteratura",
+    "phrase": "NG SCRISSE PICCOLI FUOCHI OVUNQUE SUL RAZZISMO",
+    "description": "Romanzo della scrittrice sino-americana"
+  },
+  {
+    "id": 179,
+    "category": "Cultura Generale",
+    "phrase": "WOOL FA GRAFFITI STENCIL SU TELE BIANCHE",
+    "description": "Minimalismo urbano americano"
+  },
+  {
+    "id": 180,
+    "category": "Letteratura",
+    "phrase": "FERRANTE SCRISSE L'AMICA GENIALE IN QUATTRO VOLUMI",
+    "description": "Tetralogia napoletana di successo"
+  },
+  {
+    "id": 181,
+    "category": "Arte",
+    "phrase": "DOIG DIPINGE PAESAGGI ONIRICI CARAIBICI SCOZZESI",
+    "description": "Fusione del pittore contemporaneo"
+  },
+  {
+    "id": 182,
+    "category": "Letteratura",
+    "phrase": "COELHO VENDETTE MILIONI DI COPIE DI ALCHIMISTA",
+    "description": "Successo globale dello scrittore brasiliano"
+  },
+  {
+    "id": 183,
+    "category": "Arte",
+    "phrase": "HOCKNEY DIPINGE CON IPAD A OTTANTA ANNI",
+    "description": "Modernità del pittore britannico anziano"
+  },
+  {
+    "id": 184,
+    "category": "Letteratura",
+    "phrase": "GAIMAN MESCOLA MITI ANTICHI E AMERICA MODERNA",
+    "description": "Fantasy dello scrittore britannico"
+  },
+  {
+    "id": 185,
+    "category": "Cultura Generale",
+    "phrase": "KENTRIDGE ANIMA CARBONCINI IN STOP MOTION",
+    "description": "Tecnica del video artista sudafricano"
+  },
+  {
+    "id": 186,
+    "category": "Cinema",
+    "phrase": "ROWLING SCRISSE HARRY POTTER IN POVERTÀ",
+    "description": "Inizi della miliardaria britannica"
+  },
+  {
+    "id": 187,
+    "category": "Arte",
+    "phrase": "MEHRETU FA ASTRAZIONI DI MAPPE E ARCHITETTURE",
+    "description": "Pittura complessa etiopico-americana"
+  },
+  {
+    "id": 188,
+    "category": "Letteratura",
+    "phrase": "MARTIN SCRISSE GAME OF THRONES DA DECENNI",
+    "description": "Saga incompiuta dello scrittore americano"
+  },
+  {
+    "id": 189,
+    "category": "Musica",
+    "phrase": "KOONS PORTÒ MICHAEL JACKSON IN PORCELLANA",
+    "description": "Kitsch dorato dell'artista pop"
+  },
+  {
+    "id": 190,
+    "category": "Letteratura",
+    "phrase": "COLLINS SCRISSE HUNGER GAMES SULLA VIOLENZA MEDIATICA",
+    "description": "Distopia young adult americana"
+  },
+  {
+    "id": 191,
+    "category": "Cultura Generale",
+    "phrase": "OFILI USA STERCO DI ELEFANTE NEI DIPINTI",
+    "description": "Materiale dello Young British Artist"
+  },
+  {
+    "id": 192,
+    "category": "Letteratura",
+    "phrase": "LARSSON MORÌ PRIMA DEL SUCCESSO DI MILLENNIUM",
+    "description": "Tragedia dello scrittore svedese"
+  },
+  {
+    "id": 193,
+    "category": "Cultura Generale",
+    "phrase": "HORN USA CORNA DI ANIMALI E PIUME",
+    "description": "Materiali organici dell'artista americana"
+  },
+  {
+    "id": 194,
+    "category": "Letteratura",
+    "phrase": "JAMES SCRISSE CINQUANTA SFUMATURE COME FAN FICTION",
+    "description": "Origine del bestseller erotico"
+  },
+  {
+    "id": 195,
+    "category": "Cultura Generale",
+    "phrase": "WOOL CANCELLA E RISCRIVE PAROLE IN NERO",
+    "description": "Processo pittorico dello stencil artist"
+  },
+  {
+    "id": 196,
+    "category": "Letteratura",
+    "phrase": "MEYER VENDETTE MILIONI DI COPIE DI TWILIGHT",
+    "description": "Fenomeno della scrittrice mormona"
+  },
+  {
+    "id": 197,
+    "category": "Cultura Generale",
+    "phrase": "WALL FA FOTOGRAFIE GRANDI COME QUADRI BAROCCHI",
+    "description": "Tableaux del fotografo canadese"
+  },
+  {
+    "id": 198,
+    "category": "Letteratura",
+    "phrase": "GREEN SCRISSE COLPA DELLE STELLE SUGLI ADOLESCENTI",
+    "description": "Young adult dello scrittore americano"
+  },
+  {
+    "id": 199,
+    "category": "Musica",
+    "phrase": "PRINCE FOTOGRAFA FOTOGRAFIE ALTRUI E LE RIVENDE",
+    "description": "Appropriazione controversa americana"
+  },
+  {
+    "id": 200,
+    "category": "Letteratura",
+    "phrase": "ROTHFUSS SCRISSE IL NOME DEL VENTO FANTASY",
+    "description": "Serie incompiuta dello scrittore americano"
+  },
+  {
+    "id": 201,
+    "category": "Cultura Generale",
+    "phrase": "BEECROFT FA PERFORMANCE CON DONNE NUDE IMMOBILI",
+    "description": "Tableaux vivants dell'artista italiana"
+  },
+  {
+    "id": 202,
+    "category": "Letteratura",
+    "phrase": "VERONICA ROTH VENDETTE DIVERGENT A VENTIDUE ANNI",
+    "description": "Successo precoce della scrittrice distopica"
+  },
+  {
+    "id": 203,
+    "category": "Musica",
+    "phrase": "MURAKAMI TAKASHI FA FIORI SORRIDENTI COLORATI",
+    "description": "Superflat del giapponese pop"
+  },
+  {
+    "id": 204,
+    "category": "Geografia",
+    "phrase": "LA GRANDE MURAGLIA È LUNGA VENTIMILA CHILOMETRI",
+    "description": "Dimensioni della costruzione cinese"
+  },
+  {
+    "id": 205,
+    "category": "Cinema",
+    "phrase": "NAPOLEONE ERA ALTO UN METRO E SESSANTOTTO",
+    "description": "Statura reale dell'imperatore francese"
+  },
+  {
+    "id": 206,
+    "category": "Cultura Generale",
+    "phrase": "IL SOLE IMPIEGA OTTO MINUTI PER ARRIVARE",
+    "description": "Velocità della luce astronomica"
+  },
+  {
+    "id": 207,
+    "category": "Geografia",
+    "phrase": "L'EVEREST CRESCE DI QUATTRO MILLIMETRI L'ANNO",
+    "description": "Movimento delle placche tettoniche"
+  },
+  {
+    "id": 208,
+    "category": "Storia",
+    "phrase": "CLEOPATRA VISSE PIÙ VICINA ALL'IPHONE CHE ALLE PIRAMIDI",
+    "description": "Prospettiva temporale della storia"
+  },
+  {
+    "id": 209,
+    "category": "Cultura Generale",
+    "phrase": "IL MIELE NON SCADE MAI SE CONSERVATO BENE",
+    "description": "Proprietà dell'alimento naturale"
+  },
+  {
+    "id": 210,
+    "category": "Cultura Generale",
+    "phrase": "LA RUSSIA CONFINA CON QUATTORDICI PAESI DIVERSI",
+    "description": "Estensione geografica dello stato"
+  },
+  {
+    "id": 211,
+    "category": "Scienza",
+    "phrase": "EINSTEIN RIFIUTÒ LA PRESIDENZA DI ISRAELE",
+    "description": "Offerta politica al fisico tedesco"
+  },
+  {
+    "id": 212,
+    "category": "Storia",
+    "phrase": "VENERE RUOTA AL CONTRARIO DEGLI ALTRI PIANETI",
+    "description": "Anomalia del sistema solare"
+  },
+  {
+    "id": 213,
+    "category": "Geografia",
+    "phrase": "IL DESERTO DEL SAHARA ERA VERDE SEIMILA ANNI FA",
+    "description": "Cambiamento climatico del passato"
+  },
+  {
+    "id": 214,
+    "category": "Storia",
+    "phrase": "GIULIO CESARE FU RAPITO DAI PIRATI DA GIOVANE",
+    "description": "Avventura del condottiero romano"
+  },
+  {
+    "id": 215,
+    "category": "Cultura Generale",
+    "phrase": "LA TERRA PESA SEIMILA MILIARDI DI MILIARDI DI TONNELLATE",
+    "description": "Massa del nostro pianeta"
+  },
+  {
+    "id": 216,
+    "category": "Geografia",
+    "phrase": "L'ANTARTIDE È IL DESERTO PIÙ GRANDE DEL MONDO",
+    "description": "Definizione geografica del continente"
+  },
+  {
+    "id": 217,
+    "category": "Storia",
+    "phrase": "EDISON AVEVA MILLE E NOVANTATRE BREVETTI REGISTRATI",
+    "description": "Prolificità dell'inventore americano"
+  },
+  {
+    "id": 218,
+    "category": "Cultura Generale",
+    "phrase": "NETTUNO IMPIEGA CENTOsessantacinque ANNI PER ORBITARE",
+    "description": "Periodo del pianeta lontano"
+  },
+  {
+    "id": 219,
+    "category": "Cultura Generale",
+    "phrase": "LA FINLANDIA HA PIÙ SAUNE CHE AUTOMOBILI",
+    "description": "Tradizione culturale nordica"
+  },
+  {
+    "id": 220,
+    "category": "Storia",
+    "phrase": "ALESSANDRO MAGNO MORÌ A TRENTATRE ANNI SOLTANTO",
+    "description": "Giovinezza del conquistatore macedone"
+  },
+  {
+    "id": 221,
+    "category": "Storia",
+    "phrase": "GIOVE POTREBBE CONTENERE MILLETRECENTO TERRE",
+    "description": "Dimensioni del gigante gassoso"
+  },
+  {
+    "id": 222,
+    "category": "Storia",
+    "phrase": "IL NILO SCORRE DA SUD VERSO NORD",
+    "description": "Direzione insolita del fiume africano"
+  },
+  {
+    "id": 223,
+    "category": "Storia",
+    "phrase": "TESLA DORMIVA SOLO DUE ORE PER NOTTE",
+    "description": "Abitudine estrema dell'inventore serbo"
+  },
+  {
+    "id": 224,
+    "category": "Cultura Generale",
+    "phrase": "MARTE HA DUE LUNE PICCOLE E IRREGOLARI",
+    "description": "Satelliti del pianeta rosso"
+  },
+  {
+    "id": 225,
+    "category": "Cultura Generale",
+    "phrase": "L'ISLANDA NON HA ESERCITO DA DUE SECOLI",
+    "description": "Neutralità della nazione nordica"
+  },
+  {
+    "id": 226,
+    "category": "Storia",
+    "phrase": "GENGIS KHAN CONQUISTÒ PIÙ TERRE DI CHIUNQUE",
+    "description": "Vastità dell'impero mongolo"
+  },
+  {
+    "id": 227,
+    "category": "Cultura Generale",
+    "phrase": "LA LUNA SI ALLONTANA DI QUATTRO CENTIMETRI ANNUI",
+    "description": "Deriva del satellite terrestre"
+  },
+  {
+    "id": 228,
+    "category": "Cultura Generale",
+    "phrase": "IL CANADA HA PIÙ LAGHI DEL RESTO DEL MONDO",
+    "description": "Primato geografico nordamericano"
+  },
+  {
+    "id": 229,
+    "category": "Storia",
+    "phrase": "COLOMBO NON SCOPRÌ MAI L'AMERICA CONTINENTALE",
+    "description": "Errore storico comune sull'esploratore"
+  },
+  {
+    "id": 230,
+    "category": "Geografia",
+    "phrase": "SATURNO GALLEGGEREBBE SE CI FOSSE OCEANO ABBASTANZA GRANDE",
+    "description": "Densità del pianeta con anelli"
+  },
+  {
+    "id": 231,
+    "category": "Storia",
+    "phrase": "LA BIBLIOTACA DI ALESSANDRIA BRUCIÒ PIÙ VOLTE",
+    "description": "Distruzione del sapere antico"
+  },
+  {
+    "id": 232,
+    "category": "Storia",
+    "phrase": "ALAN TURING VINSE LA GUERRA COI CODICI SEGRETI",
+    "description": "Crittografia del matematico britannico"
+  },
+  {
+    "id": 233,
+    "category": "Cultura Generale",
+    "phrase": "MERCURIO HA TEMPERATURA DI QUATTROCENTO GRADI DI ESCURSIONE",
+    "description": "Clima estremo del pianeta vicino"
+  },
+  {
+    "id": 234,
+    "category": "Cultura Generale",
+    "phrase": "L'AUSTRALIA È PIÙ LARGA DELLA LUNA",
+    "description": "Confronto dimensionale sorprendente"
+  },
+  {
+    "id": 235,
+    "category": "Cultura Generale",
+    "phrase": "ANNIBALE ATTRAVERSÒ LE ALPI CON TRENTASETTE ELEFANTI",
+    "description": "Impresa del generale cartaginese"
+  },
+  {
+    "id": 236,
+    "category": "Cultura Generale",
+    "phrase": "LA STAZIONE SPAZIALE ORBITA SEDICI VOLTE AL GIORNO",
+    "description": "Velocità del laboratorio orbitante"
+  },
+  {
+    "id": 237,
+    "category": "Cultura Generale",
+    "phrase": "MONACO È PIÙ PICCOLO DI CENTRAL PARK",
+    "description": "Dimensioni del principato europeo"
+  },
+  {
+    "id": 238,
+    "category": "Cultura Generale",
+    "phrase": "LA PESTE NERA UCCISE METÀ DELL'EUROPA MEDIEVALE",
+    "description": "Epidemia del quattordicesimo secolo"
+  },
+  {
+    "id": 239,
+    "category": "Cultura Generale",
+    "phrase": "IL PRIMO COMPUTER PESAVA VENTISETTE TONNELLATE",
+    "description": "ENIAC dell'esercito americano"
+  },
+  {
+    "id": 240,
+    "category": "Cultura Generale",
+    "phrase": "URANO RUOTA SDRAIATO SUL SUO ASSE ORBITALE",
+    "description": "Inclinazione unica del pianeta"
+  },
+  {
+    "id": 241,
+    "category": "Musica",
+    "phrase": "LE PIRAMIDI FURONO COSTRUITE DA OPERAI PAGATI",
+    "description": "Sfatare il mito degli schiavi"
+  },
+  {
+    "id": 242,
+    "category": "Storia",
+    "phrase": "DARWIN TARDÒ VENT'ANNI A PUBBLICARE L'EVOLUZIONE",
+    "description": "Esitazione del naturalista britannico"
+  },
+  {
+    "id": 243,
+    "category": "Cultura Generale",
+    "phrase": "LA VIA LATTEA CONTIENE DUECENTO MILIARDI DI STELLE",
+    "description": "Vastità della nostra galassia"
+  },
+  {
+    "id": 244,
+    "category": "Geografia",
+    "phrase": "LA GROENLANDIA APPARTIENE ALLA DANIMARCA NORDICA",
+    "description": "Sovranità dell'isola artica"
+  },
+  {
+    "id": 245,
+    "category": "Storia",
+    "phrase": "SPARTA AVEVA DUE RE CONTEMPORANEAMENTE SEMPRE",
+    "description": "Sistema politico greco antico"
+  },
+  {
+    "id": 246,
+    "category": "Cultura Generale",
+    "phrase": "INTERNET FU INVENTATO PER SCOPI MILITARI AMERICANI",
+    "description": "Origine della rete globale"
+  },
+  {
+    "id": 247,
+    "category": "Cultura Generale",
+    "phrase": "IL BUCO NERO PIÙ VICINO DISTA MILLE ANNI LUCE",
+    "description": "Distanza dell'oggetto cosmico denso"
+  },
+  {
+    "id": 248,
+    "category": "Storia",
+    "phrase": "IL LIECHTENSTEIN È GRANDE COME WASHINGTON D.C.",
+    "description": "Estensione del micro stato alpino"
+  },
+  {
+    "id": 249,
+    "category": "Storia",
+    "phrase": "COSTANTINO LEGALIZZÒ IL CRISTIANESIMO NEL TRECENTOTREDICI",
+    "description": "Editto dell'imperatore romano"
+  },
+  {
+    "id": 250,
+    "category": "Cultura Generale",
+    "phrase": "LA PRIMA EMAIL FU SPEDITA NEL SETTANTUNO",
+    "description": "Origine della posta elettronica"
+  },
+  {
+    "id": 251,
+    "category": "Storia",
+    "phrase": "PLUTONE IMPIEGA DUECENTOQUARANTOTTO ANNI PER ORBITARE COMPLETO",
+    "description": "Periodo del pianeta nano"
+  },
+  {
+    "id": 252,
+    "category": "Geografia",
+    "phrase": "IL VATICANO È LO STATO PIÙ PICCOLO DEL MONDO",
+    "description": "Dimensioni della città pontificia"
+  },
+  {
+    "id": 253,
+    "category": "Arte",
+    "phrase": "LEONARDO PROGETTÒ CARRI ARMATI E PARACADUTE RINASCIMENTALI",
+    "description": "Invenzioni avanzate del genio italiano"
+  },
+  {
+    "id": 254,
+    "category": "Cultura Generale",
+    "phrase": "IL PRIMO UOMO NELLO SPAZIO FU GAGARIN",
+    "description": "Cosmonauta sovietico del sessantuno"
+  },
+  {
+    "id": 255,
+    "category": "Storia",
+    "phrase": "IL PIANETA NOVE POTREBBE ESISTERE OLTRE NETTUNO",
+    "description": "Ipotesi astronomica contemporanea"
+  },
+  {
+    "id": 256,
+    "category": "Storia",
+    "phrase": "SINGAPORE È UNA CITTÀ STATO INDIPENDENTE MODERNA",
+    "description": "Peculiarità politica asiatica"
+  },
+  {
+    "id": 257,
+    "category": "Storia",
+    "phrase": "I VICHINGHI ARRIVARONO IN AMERICA PRIMA DI COLOMBO",
+    "description": "Scoperta scandinava del nuovo mondo"
+  },
+  {
+    "id": 258,
+    "category": "Storia",
+    "phrase": "GOOGLE ELABORA SESSANTAMILA RICERCHE AL SECONDO",
+    "description": "Traffico del motore di ricerca"
+  },
+  {
+    "id": 259,
+    "category": "Storia",
+    "phrase": "LA LUCE IMPIEGA CENTOMILA ANNI ATTRAVERSARE LA GALASSIA",
+    "description": "Dimensioni della Via Lattea"
+  },
+  {
+    "id": 260,
+    "category": "Storia",
+    "phrase": "IL BAHREIN È UN ARCIPELAGO DI TRENTATRE ISOLE",
+    "description": "Geografia del regno del Golfo"
+  },
+  {
+    "id": 261,
+    "category": "Storia",
+    "phrase": "GUTENBERG INVENTÒ LA STAMPA A CARATTERI MOBILI",
+    "description": "Rivoluzione tedesca del quattrocento"
+  },
+  {
+    "id": 262,
+    "category": "Storia",
+    "phrase": "IL WIFI FU INVENTATO PER COMUNICARE NELLO SPAZIO",
+    "description": "Origine della tecnologia wireless"
+  },
+  {
+    "id": 263,
+    "category": "Cultura Generale",
+    "phrase": "ANDROMEDA COLLIDERĂ CON LA VIA LATTEA TRA MILIARDI",
+    "description": "Futuro della nostra galassia"
+  },
+  {
+    "id": 264,
+    "category": "Cultura Generale",
+    "phrase": "IL MAR MORTO STA SCOMPARENDO DI UN METRO ANNUO",
+    "description": "Crisi ambientale del lago salato"
+  },
+  {
+    "id": 265,
+    "category": "Storia",
+    "phrase": "ARCHIMEDE BRUCIÒ NAVI ROMANE CON SPECCHI PARABOLICI",
+    "description": "Leggenda del matematico siracusano"
+  },
+  {
+    "id": 266,
+    "category": "Storia",
+    "phrase": "IL BLUETOOTH PRENDE NOME DA UN RE VICHINGO",
+    "description": "Origine della tecnologia di connessione"
+  },
+  {
+    "id": 267,
+    "category": "Cultura Generale",
+    "phrase": "BETELGEUSE ESPLODERÀ IN SUPERNOVA TRA POCO TEMPO",
+    "description": "Destino della stella gigante rossa"
+  },
+  {
+    "id": 268,
+    "category": "Cultura Generale",
+    "phrase": "IL LIECHTENSTEIN NON HA AEROPORTO NÈ ESERCITO",
+    "description": "Caratteristiche del principato alpino"
+  },
+  {
+    "id": 269,
+    "category": "Storia",
+    "phrase": "ROMA FU GOVERNATA DA CINQUE IMPERATORI IN UN ANNO",
+    "description": "Crisi del terzo secolo dopo Cristo"
+  },
+  {
+    "id": 270,
+    "category": "Cultura Generale",
+    "phrase": "IL TOUCHSCREEN FU INVENTATO NEGLI ANNI SESSANTA",
+    "description": "Origine della tecnologia tattile"
+  },
+  {
+    "id": 271,
+    "category": "Storia",
+    "phrase": "LA STELLA POLARE NON È LA PIÙ LUMINOSA",
+    "description": "Equivoco astronomico comune"
+  },
+  {
+    "id": 272,
+    "category": "Cultura Generale",
+    "phrase": "IL LUSSEMBURGO HA IL PIL PRO CAPITE PIÙ ALTO",
+    "description": "Ricchezza del granducato europeo"
+  },
+  {
+    "id": 273,
+    "category": "Storia",
+    "phrase": "ERATOSTENE CALCOLÒ LA CIRCONFERENZA TERRESTRE NELL'ANTICHITÀ",
+    "description": "Precisione del matematico greco"
+  },
+  {
+    "id": 274,
+    "category": "Storia",
+    "phrase": "IL MOUSE FU INVENTATO NEL SESSANTATRE DA ENGELBART",
+    "description": "Nascita del dispositivo di puntamento"
+  },
+  {
+    "id": 275,
+    "category": "Cultura Generale",
+    "phrase": "LA GRANDE MACCHIA ROSSA DURA DA QUATTROCENTO ANNI",
+    "description": "Tempesta permanente su Giove"
+  },
+  {
+    "id": 276,
+    "category": "Storia",
+    "phrase": "IL BHUTAN MISURA LA FELICITÀ NAZIONALE LORDA",
+    "description": "Indicatore alternativo del regno himalayano"
+  },
+  {
+    "id": 277,
+    "category": "Letteratura",
+    "phrase": "HAMMURABI SCRISSE IL PRIMO CODICE DI LEGGI BABILONESE",
+    "description": "Origine del diritto antico"
+  },
+  {
+    "id": 278,
+    "category": "Storia",
+    "phrase": "IL PRIMO CELLULARE PESAVA DUE CHILI NEL SETTANTATRE",
+    "description": "Dimensioni del Motorola DynaTAC"
+  },
+  {
+    "id": 279,
+    "category": "Cultura Generale",
+    "phrase": "PROXIMA CENTAURI È LA STELLA PIÙ VICINA AL SOLE",
+    "description": "Distanza di quattro anni luce"
+  },
+  {
+    "id": 280,
+    "category": "Storia",
+    "phrase": "SAN MARINO È LA REPUBBLICA PIÙ ANTICA DEL MONDO",
+    "description": "Fondazione del trecentuno dopo Cristo"
+  },
+  {
+    "id": 281,
+    "category": "Storia",
+    "phrase": "IPPOCRATE CREÒ IL GIURAMENTO MEDICO NELL'ANTICHITÀ",
+    "description": "Etica del padre della medicina"
+  },
+  {
+    "id": 282,
+    "category": "Cultura Generale",
+    "phrase": "IL PRIMO VIDEO SU YOUTUBE DURA DICIOTTO SECONDI",
+    "description": "Nascita della piattaforma nel duemila cinque"
+  },
+  {
+    "id": 283,
+    "category": "Cultura Generale",
+    "phrase": "LA SUPERNOVA PIÙ VICINA ESPLOSE NEL MILLESEICENTOQUATTRO",
+    "description": "Evento osservato da Keplero"
+  },
+  {
+    "id": 284,
+    "category": "Geografia",
+    "phrase": "NAURU È IL PAESE PIÙ PICCOLO DELL'OCEANIA",
+    "description": "Isola stato del Pacifico"
+  },
+  {
+    "id": 285,
+    "category": "Scienza",
+    "phrase": "PITAGORA FONDÒ UNA SETTA MATEMATICA SEGRETA GRECA",
+    "description": "Comunità del filosofo di Samo"
+  },
+  {
+    "id": 286,
+    "category": "Storia",
+    "phrase": "IL COMPACT DISC FU INVENTATO DA PHILIPS E SONY",
+    "description": "Rivoluzione musicale degli anni ottanta"
+  },
+  {
+    "id": 287,
+    "category": "Storia",
+    "phrase": "TITANO È L'UNICA LUNA CON ATMOSFERA DENSA",
+    "description": "Satellite particolare di Saturno"
+  },
+  {
+    "id": 288,
+    "category": "Geografia",
+    "phrase": "TUVALU GUADAGNA DAL DOMINIO INTERNET PUNTO T V",
+    "description": "Fonte di reddito dell'isola polinesiana"
+  },
+  {
+    "id": 289,
+    "category": "Filosofia",
+    "phrase": "DEMOCRITO TEORIZZÒ GLI ATOMI NEL QUINTO SECOLO",
+    "description": "Intuizione del filosofo greco antico"
+  },
+  {
+    "id": 290,
+    "category": "Cultura Generale",
+    "phrase": "IL CODICE QR FU INVENTATO IN GIAPPONE NEL NOVANTAQUATTRO",
+    "description": "Origine del codice bidimensionale"
+  },
+  {
+    "id": 291,
+    "category": "Cultura Generale",
+    "phrase": "EUROPA HA OCEANI SOTTO LA CROSTA GHIACCIATA",
+    "description": "Luna di Giove con acqua liquida"
+  },
+  {
+    "id": 292,
+    "category": "Cultura Generale",
+    "phrase": "IL KIRIBATI È SPALMATO SU QUATTRO FUSI ORARI",
+    "description": "Estensione dell'arcipelago pacifico"
+  },
+  {
+    "id": 293,
+    "category": "Filosofia",
+    "phrase": "TALETE PREDISSE UN'ECLISSI NEL SESTO SECOLO AVANTI",
+    "description": "Precisione del filosofo di Mileto"
+  },
+  {
+    "id": 294,
+    "category": "Cultura Generale",
+    "phrase": "IL FLOPPY DISK CONTENEVA UN MEGA E QUARANTA",
+    "description": "Capacità del supporto magnetico"
+  },
+  {
+    "id": 295,
+    "category": "Storia",
+    "phrase": "ENCELADO ESPELLE GETTI DI VAPORE ACQUEO NELLO SPAZIO",
+    "description": "Attività della luna di Saturno"
+  },
+  {
+    "id": 296,
+    "category": "Cultura Generale",
+    "phrase": "PALAU VIETÒ LA PESCA IN OTTANTA PERCENTO DELLE ACQUE",
+    "description": "Protezione ambientale dell'arcipelago"
+  },
+  {
+    "id": 297,
+    "category": "Storia",
+    "phrase": "ERODOTO È CONSIDERATO IL PADRE DELLA STORIA",
+    "description": "Storico greco del quinto secolo"
+  },
+  {
+    "id": 298,
+    "category": "Cultura Generale",
+    "phrase": "IL WALKMAN SONY RIVOLUZIONÒ LA MUSICA MOBILE",
+    "description": "Invenzione giapponese del settantanove"
+  },
+  {
+    "id": 299,
+    "category": "Cultura Generale",
+    "phrase": "MARTE AVEVA OCEANI MILIARDI DI ANNI FA",
+    "description": "Passato acquoso del pianeta rosso"
+  },
+  {
+    "id": 300,
+    "category": "Cultura Generale",
+    "phrase": "LE MALDIVE SONO L'ARCIPELAGO PIÙ BASSO DEL MONDO",
+    "description": "Altitudine media di un metro e mezzo"
+  },
+  {
+    "id": 301,
+    "category": "Storia",
+    "phrase": "SENECA FU PRECETTORE E VITTIMA DI NERONE",
+    "description": "Destino del filosofo stoico romano"
+  },
+  {
+    "id": 302,
+    "category": "Cultura Generale",
+    "phrase": "IL LASER FU INVENTATO NEL SESSANTA DA MAIMAN",
+    "description": "Nascita della luce amplificata"
+  },
+  {
+    "id": 303,
+    "category": "Cultura Generale",
+    "phrase": "GANIMEDE È LA LUNA PIÙ GRANDE DEL SISTEMA",
+    "description": "Satellite gigante di Giove"
+  },
+  {
+    "id": 304,
+    "category": "Cultura Generale",
+    "phrase": "IL BRUNEI È UNO SULTANATO RICCO DI PETROLIO",
+    "description": "Monarchia assoluta del Borneo"
+  },
+  {
+    "id": 305,
+    "category": "Storia",
+    "phrase": "ARISTOTELE FU MAESTRO DI ALESSANDRO MAGNO",
+    "description": "Educazione del conquistatore macedone"
+  },
+  {
+    "id": 306,
+    "category": "Cultura Generale",
+    "phrase": "IL MICROONDE FU SCOPERTO PER CASO DA SPENCER",
+    "description": "Invenzione accidentale del quarantacinque"
+  },
+  {
+    "id": 307,
+    "category": "Cultura Generale",
+    "phrase": "IO È IL CORPO PIÙ VULCANICO DEL SISTEMA",
+    "description": "Luna infernale di Giove"
+  },
+  {
+    "id": 308,
+    "category": "Cultura Generale",
+    "phrase": "IL QATAR HA PIÙ STRANIERI CHE CITTADINI",
+    "description": "Demografia dello stato del Golfo"
+  },
+  {
+    "id": 309,
+    "category": "Filosofia",
+    "phrase": "DIOGENE VIVEVA IN UNA BOTTE NEL MERCATO",
+    "description": "Austerità del filosofo cinico greco"
+  },
+  {
+    "id": 310,
+    "category": "Cultura Generale",
+    "phrase": "IL TRANSISTOR CAMBIÒ L'ELETTRONICA NEL QUARANTASETTE",
+    "description": "Invenzione dei laboratori Bell"
+  },
+  {
+    "id": 311,
+    "category": "Cultura Generale",
+    "phrase": "CARONTE È GRANDE METÀ DI PLUTONE",
+    "description": "Proporzioni del sistema binario"
+  },
+  {
+    "id": 312,
+    "category": "Geografia",
+    "phrase": "CIPRO È DIVISA TRA GRECI E TURCHI DAL SETTANTAQUATTRO",
+    "description": "Conflitto dell'isola mediterranea"
+  },
+  {
+    "id": 313,
+    "category": "Filosofia",
+    "phrase": "SOCRATE NON LASCIÒ NULLA DI SCRITTO PERSONALMENTE",
+    "description": "Metodo orale del filosofo ateniese"
+  },
+  {
+    "id": 314,
+    "category": "Storia",
+    "phrase": "IL MICROPROCESSORE FU INVENTATO DA INTEL NEL SETTANTUNO",
+    "description": "Rivoluzione del chip programmabile"
+  },
+  {
+    "id": 315,
+    "category": "Cultura Generale",
+    "phrase": "TITANO HA LAGHI DI METANO LIQUIDO IN SUPERFICIE",
+    "description": "Paesaggio esotico della luna saturniana"
+  },
+  {
+    "id": 316,
+    "category": "Storia",
+    "phrase": "IL KUWAIT FU LIBERATO NELLA GUERRA DEL GOLFO",
+    "description": "Conflitto del novantuno contro l'Iraq"
+  },
+  {
+    "id": 317,
+    "category": "Filosofia",
+    "phrase": "ZENONE CREÒ PARADOSSI CONTRO IL MOVIMENTO FISICO",
+    "description": "Enigmi del filosofo eleata greco"
+  },
+  {
+    "id": 318,
+    "category": "Cultura Generale",
+    "phrase": "IL WORLD WIDE WEB FU INVENTATO AL CERN NEL NOVANTA",
+    "description": "Nascita della rete ipertestuale"
+  },
+  {
+    "id": 319,
+    "category": "Cultura Generale",
+    "phrase": "TRITONE ORBITA NETTUNO IN DIREZIONE RETROGRADA",
+    "description": "Anomalia della luna catturata"
+  },
+  {
+    "id": 320,
+    "category": "Cultura Generale",
+    "phrase": "IL BOTSWANA È UNO DEI PAESI PIÙ STABILI AFRICANI",
+    "description": "Democrazia dell'Africa australe"
+  },
+  {
+    "id": 321,
+    "category": "Storia",
+    "phrase": "EPICURO INSEGNAVA IN UN GIARDINO DI ATENE",
+    "description": "Scuola del filosofo del piacere"
+  },
+  {
+    "id": 322,
+    "category": "Scienza",
+    "phrase": "IL DNA FU SCOPERTO DA WATSON E CRICK NEL CINQUANTATRE",
+    "description": "Struttura a doppia elica della vita"
+  },
+  {
+    "id": 323,
+    "category": "Cultura Generale",
+    "phrase": "MIRANDA HA SCARPATE ALTE VENTI CHILOMETRI VERTICALI",
+    "description": "Geografia estrema della luna di Urano"
+  },
+  {
+    "id": 324,
+    "category": "Geografia",
+    "phrase": "IL MONTENEGRO SI SEPARÒ DALLA SERBIA NEL DUEMILA SEI",
+    "description": "Indipendenza dello stato balcanico"
+  },
+  {
+    "id": 325,
+    "category": "Filosofia",
+    "phrase": "PLATONE FONDÒ L'ACCADEMIA CHE DURÒ NOVECENTO ANNI",
+    "description": "Scuola del filosofo ateniese"
+  },
+  {
+    "id": 326,
+    "category": "Storia",
+    "phrase": "IL VELCRO FU ISPIRATO DAI SEMI DI BARDANA",
+    "description": "Biomimetica dell'inventore svizzero"
+  },
+  {
+    "id": 327,
+    "category": "Storia",
+    "phrase": "NEREIDE È LA TERZA LUNA PIÙ GRANDE DI NETTUNO",
+    "description": "Satellite irregolare del pianeta blu"
+  },
+  {
+    "id": 328,
+    "category": "Cultura Generale",
+    "phrase": "IL KOSOVO DICHIARÒ INDIPENDENZA NEL DUEMILA OTTO",
+    "description": "Nuovo stato dei Balcani"
+  },
+  {
+    "id": 329,
+    "category": "Letteratura",
+    "phrase": "MARCO AURELIO SCRISSE PENSIERI DA IMPERATORE STOICO",
+    "description": "Filosofia del sovrano romano"
+  },
+  {
+    "id": 330,
+    "category": "Scienza",
+    "phrase": "IL KEVLAR FU INVENTATO DA UNA CHIMICA DUPONT",
+    "description": "Fibra aramidica superresistente"
+  },
+  {
+    "id": 331,
+    "category": "Cultura Generale",
+    "phrase": "COMETE E ASTEROIDI PORTARONO ACQUA SULLA TERRA",
+    "description": "Origine degli oceani terrestri"
+  },
+  {
+    "id": 332,
+    "category": "Cultura Generale",
+    "phrase": "IL SUDSUDAN È IL PAESE PIÙ GIOVANE DEL MONDO",
+    "description": "Indipendenza del duemila undici"
+  },
+  {
+    "id": 333,
+    "category": "Musica",
+    "phrase": "BOEZIO SCRISSE LA CONSOLAZIONE IN PRIGIONE PRIMA",
+    "description": "Opera del filosofo romano condannato"
+  },
+  {
+    "id": 334,
+    "category": "Cultura Generale",
+    "phrase": "IL TEFLON FU SCOPERTO PER CASO DA PLUNKETT",
+    "description": "Invenzione accidentale della DuPont"
+  },
+  {
+    "id": 335,
+    "category": "Cultura Generale",
+    "phrase": "LA FASCIA DI KUIPER CONTIENE MILIARDI DI COMETE",
+    "description": "Regione esterna del sistema solare"
+  },
+  {
+    "id": 336,
+    "category": "Cultura Generale",
+    "phrase": "TIMOR EST OTTENNE INDIPENDENZA NEL DUEMILA DUE",
+    "description": "Separazione dall'Indonesia"
+  },
+  {
+    "id": 337,
+    "category": "Filosofia",
+    "phrase": "AVERROÈ COMMENTÒ ARISTOTELE PER L'ISLAM MEDIEVALE",
+    "description": "Ponte del filosofo andaluso"
+  },
+  {
+    "id": 338,
+    "category": "Cultura Generale",
+    "phrase": "IL POST-IT FU UN FALLIMENTO TRASFORMATO IN SUCCESSO",
+    "description": "Fortuna della colla debole 3M"
+  },
+  {
+    "id": 339,
+    "category": "Cultura Generale",
+    "phrase": "LA NUBE DI OORT CONTIENE TRILIONI DI COMETE",
+    "description": "Confine estremo del sistema solare"
+  },
+  {
+    "id": 340,
+    "category": "Arte",
+    "phrase": "LEONARDO DA VINCI INVENTORE GENIALE",
+    "description": "Rinascimento italiano"
+  },
+  {
+    "id": 341,
+    "category": "Arte",
+    "phrase": "PICASSO E IL PERIODO AZZURRO",
+    "description": "Tristezza blu"
+  },
+  {
+    "id": 342,
+    "category": "Musica",
+    "phrase": "BEETHOVEN DIVENTÒ SORDO COMPLETAMENTE",
+    "description": "Compositore tedesco"
+  },
+  {
+    "id": 343,
+    "category": "Arte",
+    "phrase": "MICHELANGELO SCOLPÌ IL DAVID GIGANTE",
+    "description": "Firenze rinascimentale"
+  },
+  {
+    "id": 344,
+    "category": "Musica",
+    "phrase": "FREDDIE MERCURY SCRISSE RHAPSODY BOHEMIAN",
+    "description": "Queen leggendari"
+  },
+  {
+    "id": 345,
+    "category": "Arte",
+    "phrase": "VAN GOGH SI TAGLIÒ L ORECCHIO SINISTRO",
+    "description": "Post-impressionismo"
+  },
+  {
+    "id": 346,
+    "category": "Musica",
+    "phrase": "MOZART COMPOSSE QUATTROCENTO OPERE MUSICALI",
+    "description": "Genio salisburghese"
+  },
+  {
+    "id": 347,
+    "category": "Arte",
+    "phrase": "SALVADOR DALÍ DIPINSE OROLOGI FUSI MORBIDI",
+    "description": "Surrealismo spagnolo"
+  },
+  {
+    "id": 348,
+    "category": "Musica",
+    "phrase": "ROLLING STONES INCISIONI ROCK INFINITE",
+    "description": "British invasion"
+  },
+  {
+    "id": 349,
+    "category": "Storia",
+    "phrase": "REMBRANDT MAESTRO LUCE E OMBRE PROFONDE",
+    "description": "Olanda barocca"
+  },
+  {
+    "id": 350,
+    "category": "Storia",
+    "phrase": "LUKE È FIGLIO DI ANAKIN SKYWALKER",
+    "description": "Guerra stellare"
+  },
+  {
+    "id": 351,
+    "category": "Cultura Generale",
+    "phrase": "FORREST GUMP CORSE ATTRAVERSO L AMERICA",
+    "description": "Viaggio semplice"
+  },
+  {
+    "id": 352,
+    "category": "Geografia",
+    "phrase": "TITANIC COLPÌ ICEBERG NELL OCEANO ATLANTICO",
+    "description": "Disastro marino"
+  },
+  {
+    "id": 353,
+    "category": "Cultura Generale",
+    "phrase": "IL PADRINO OFFRÌ TESTA DI CAVALLO",
+    "description": "Mafia siciliana"
+  },
+  {
+    "id": 354,
+    "category": "Cultura Generale",
+    "phrase": "MATRIX HA SCELTO L UOMO L ELETT O",
+    "description": "Realtà virtuale"
+  },
+  {
+    "id": 355,
+    "category": "Cultura Generale",
+    "phrase": "CASABLANCA PLAY IT SAM FAMOSO",
+    "description": "Amori bellici"
+  },
+  {
+    "id": 356,
+    "category": "Musica",
+    "phrase": "ROCKY BALBOA SALÌ SCALE FILADELFIA",
+    "description": "Pugile italoamericano"
+  },
+  {
+    "id": 357,
+    "category": "Geografia",
+    "phrase": "JURASSIC PARK CLONÒ DINOSAURI VIVI",
+    "description": "Isola preistorica"
+  },
+  {
+    "id": 358,
+    "category": "Cultura Generale",
+    "phrase": "PULP FICTION HAMBURGER DI DEAD MAN",
+    "description": "Los Angeles pulp"
+  },
+  {
+    "id": 359,
+    "category": "Storia",
+    "phrase": "GLADIATORE URLÒ SONO SPETTACOLO",
+    "description": "Arena romana"
+  },
+  {
+    "id": 360,
+    "category": "Storia",
+    "phrase": "ETÈ FINITA LA GUERRA VIETNAM",
+    "description": "Elicottero iconico"
+  },
+  {
+    "id": 361,
+    "category": "Storia",
+    "phrase": "PYRAMIDI EGIZIE ALINEATE CON ORIONE",
+    "description": "Antico Egitto"
+  },
+  {
+    "id": 362,
+    "category": "Geografia",
+    "phrase": "GRANDE MURAGLIA LUNGA VENTICINQUEMILA CHILOMETRI",
+    "description": "Difesa cinese"
+  },
+  {
+    "id": 363,
+    "category": "Storia",
+    "phrase": "COLOSSEO OSPITÒ LOTTE DI GLADIATORI",
+    "description": "Roma imperiale"
+  },
+  {
+    "id": 364,
+    "category": "Geografia",
+    "phrase": "PARTENONE DEDICATO DEA ATENA GUERRIERA",
+    "description": "Acropoli ateniese"
+  },
+  {
+    "id": 365,
+    "category": "Geografia",
+    "phrase": "STONEHENGE ALLINEATO CON SOLE SOLSTIZIO",
+    "description": "Megalitiche britanniche"
+  },
+  {
+    "id": 366,
+    "category": "Storia",
+    "phrase": "TAJ MAHAL SIMBOLO AMORE ETERNO SHAH",
+    "description": "India moghula"
+  },
+  {
+    "id": 367,
+    "category": "Storia",
+    "phrase": "MACHU PICCHU CITTÀ INCA NASCOSTA NUVOLE",
+    "description": "Ande peruviane"
+  },
+  {
+    "id": 368,
+    "category": "Storia",
+    "phrase": "VERSAILLES SIMBOLO POTERE ASSOLUTO LUIGI",
+    "description": "Reggia francese"
+  },
+  {
+    "id": 369,
+    "category": "Cultura Generale",
+    "phrase": "RINASCIMENTO INIZIÒ FIRENZE QUATTROCENTO",
+    "description": "Umanesimo culturale"
+  },
+  {
+    "id": 370,
+    "category": "Letteratura",
+    "phrase": "ILLUMINISMO DI VOLTAIRE E ROUSSEAU",
+    "description": "Ragione settecentesca"
+  },
+  {
+    "id": 371,
+    "category": "Cultura Generale",
+    "phrase": "STAMPA GUTENBERG RIVOLUZIONÒ CONOSCENZA",
+    "description": "Quindicesimo secolo"
+  },
+  {
+    "id": 372,
+    "category": "Cultura Generale",
+    "phrase": "CORTINA RINASCIMENTO GRECO A FIRENZE",
+    "description": "Ritorno classici"
+  },
+  {
+    "id": 373,
+    "category": "Scienza",
+    "phrase": "EVOLUZIONE DARWIN ORIGINE SPECIE",
+    "description": "Galapagos isole"
+  },
+  {
+    "id": 374,
+    "category": "Storia",
+    "phrase": "ELETTROMAGNETISMO SCOPERTO DA FARADAY",
+    "description": "Fisica ottocentesca"
+  },
+  {
+    "id": 375,
+    "category": "Storia",
+    "phrase": "PI GRECO CIRCONFERENZA SU DIAMETRO",
+    "description": "Matematica antica"
+  },
+  {
+    "id": 376,
+    "category": "Scienza",
+    "phrase": "DNA STRUTTURA ELICA A DOPPIA SPIRALE",
+    "description": "Codice genetico"
+  },
+  {
+    "id": 377,
+    "category": "Scienza",
+    "phrase": "RELATIVITÀ DI EINSTEIN SPAZIO TEMPO",
+    "description": "Fisica moderna"
+  },
+  {
+    "id": 378,
+    "category": "Musica",
+    "phrase": "JOHN LENNON UCCISO DAVANTI CASA",
+    "description": "Pace beatlesiana"
+  },
+  {
+    "id": 379,
+    "category": "Musica",
+    "phrase": "MICHAEL JACKSON RE DEL POP MOONWALK",
+    "description": "Thriller anni Ottanta"
+  },
+  {
+    "id": 380,
+    "category": "Musica",
+    "phrase": "ELVIS PRESLEY RE DEL ROCK N ROLL",
+    "description": "Memphis blues"
+  },
+  {
+    "id": 381,
+    "category": "Musica",
+    "phrase": "BEATLES INCISIONE ABBEY ROAD FAMOSA",
+    "description": "Liverpool quattro"
+  },
+  {
+    "id": 382,
+    "category": "Musica",
+    "phrase": "NIRVANA CURT COBAIN SMELLS LIKE",
+    "description": "Grunge Seattle"
+  },
+  {
+    "id": 383,
+    "category": "Musica",
+    "phrase": "MADONNA MATERIAL GIRL VIDEO ICONICO",
+    "description": "Pop provocatorio"
+  },
+  {
+    "id": 384,
+    "category": "Musica",
+    "phrase": "DAVID BOWIE ZIGGY STARDUST ALIENO",
+    "description": "Glam rock"
+  },
+  {
+    "id": 385,
+    "category": "Musica",
+    "phrase": "PRINCE STRUMENTISTA VIRTUOSO CHITARRA",
+    "description": "Purple rain"
+  },
+  {
+    "id": 386,
+    "category": "Musica",
+    "phrase": "METALLICA THRASH METAL MASTER PUPPETS",
+    "description": "San Francisco bay"
+  },
+  {
+    "id": 387,
+    "category": "Musica",
+    "phrase": "U2 BONO VOCI CANZONI IRLANDESI",
+    "description": "Rock attivista"
+  },
+  {
+    "id": 388,
+    "category": "Letteratura",
+    "phrase": "SHAKESPEARE SCRISSE ROMEO E GIULIETTA",
+    "description": "Teatro elisabettiano"
+  },
+  {
+    "id": 389,
+    "category": "Letteratura",
+    "phrase": "DANTE SCRISSE DIVINA COMMEDIA INFERNO",
+    "description": "Letteratura medievale"
+  },
+  {
+    "id": 390,
+    "category": "Letteratura",
+    "phrase": "TOLKIEN CREÒ TERRA DI MEZZO HOBBIT",
+    "description": "Fantasy epico"
+  },
+  {
+    "id": 391,
+    "category": "Letteratura",
+    "phrase": "ORWELL SCRISSE 1984 GRANDE FRATELLO",
+    "description": "Distopia totalitaria"
+  },
+  {
+    "id": 392,
+    "category": "Letteratura",
+    "phrase": "HEMINGWAY VECCHIO UOMO E IL MARE",
+    "description": "Nobel letteratura"
+  },
+  {
+    "id": 393,
+    "category": "Letteratura",
+    "phrase": "JANE AUSTEN ORGOGLIO E PREGIUDIZIO",
+    "description": "Romanzi inglesi"
+  },
+  {
+    "id": 394,
+    "category": "Letteratura",
+    "phrase": "GABO CENTO ANNI DI SOLITUDINE",
+    "description": "Realismo magico"
+  },
+  {
+    "id": 395,
+    "category": "Letteratura",
+    "phrase": "VERGA MALAVOGLIA PESCA SICILIANA",
+    "description": "Verismo italiano"
+  },
+  {
+    "id": 396,
+    "category": "Letteratura",
+    "phrase": "CALVINO INVISIBILI CITTÀ MARCO POLO",
+    "description": "Fantastico novecento"
+  },
+  {
+    "id": 397,
+    "category": "Letteratura",
+    "phrase": "PIRANDELLO SEI PERSONAGGI AUTORE",
+    "description": "Teatro assurdità"
+  },
+  {
+    "id": 398,
+    "category": "Letteratura",
+    "phrase": "LEOPARDI SCRISSE INFINITO COLLINA",
+    "description": "Poesia romantica"
+  },
+  {
+    "id": 399,
+    "category": "Cinema",
+    "phrase": "FORSE STAR WARS HA SETTE SEQUEL",
+    "description": "Saga galattica"
+  },
+  {
+    "id": 400,
+    "category": "Cinema",
+    "phrase": "INDIANA JONES CERCA ARCA ALLEANZA",
+    "description": "Avventure archeologiche"
+  },
+  {
+    "id": 401,
+    "category": "Cinema",
+    "phrase": "TERMINATOR VIENE DAL FUTURO SKYNET",
+    "description": "Macchine ribelli"
+  },
+  {
+    "id": 402,
+    "category": "Cinema",
+    "phrase": "HARRY POTTER VOLA SU MANICO SCOPA",
+    "description": "Mago Hogwarts"
+  },
+  {
+    "id": 409,
+    "category": "Cultura Generale",
+    "phrase": "BLACK PANTHER WAKANDA PER SEMPRE",
+    "description": "Vibranio africano"
+  },
+  {
+    "id": 415,
+    "category": "Cinema",
+    "phrase": "LA BELLA E LA BESTIA NEL CASTELLO INCANTATO",
+    "description": "Amore mostruoso"
+  },
+  {
+    "id": 416,
+    "category": "Cinema",
+    "phrase": "ALADDIN E LA LAMPADA DAI TRE DESIDERI",
+    "description": "Arabian nights"
+  },
+  {
+    "id": 417,
+    "category": "Cinema",
+    "phrase": "Frozen ELSA E IL POTERE DEL GHIACCIO",
+    "description": "Regine fredde"
+  },
+  {
+    "id": 418,
+    "category": "Cinema",
+    "phrase": "MULAN SI FINGE UOMO E SALVA L IMPERATORE",
+    "description": "Cina antica"
+  },
+  {
+    "id": 419,
+    "category": "Arte",
+    "phrase": "PIAZZA SAN MARCO È IL SALOTTO D'EUROPA",
+    "description": "Venezia rinascimentale"
+  },
+  {
+    "id": 420,
+    "category": "Storia",
+    "phrase": "TORRE EIFFEL COSTRUITA PER ESPOSIZIONE",
+    "description": "Parigi ferrosa"
+  },
+  {
+    "id": 421,
+    "category": "Geografia",
+    "phrase": "STATUA LIBERTÀ DONO FRANCESE AMERICANI",
+    "description": "Ellis Island"
+  },
+  {
+    "id": 422,
+    "category": "Geografia",
+    "phrase": "CREMLINO MOSCA FORTALEZZA ZAR",
+    "description": "Russia rossa"
+  },
+  {
+    "id": 423,
+    "category": "Musica",
+    "phrase": "SAGRADA FAMILIA GAUDÌ OPERA INFINITA",
+    "description": "Barcellona modernista"
+  },
+  {
+    "id": 424,
+    "category": "Geografia",
+    "phrase": "NIAGARA CADUTE ACQUA PIÙ POTENTI",
+    "description": "Canada USA"
+  },
+  {
+    "id": 425,
+    "category": "Geografia",
+    "phrase": "GOLDEN GATE ROSSO SAN FRANCISCO",
+    "description": "Baia sospesa"
+  },
+  {
+    "id": 426,
+    "category": "Geografia",
+    "phrase": "CARCASSONNE CITTÀ MEDIEVALE MURATA",
+    "description": "Francia occitana"
+  },
+  {
+    "id": 427,
+    "category": "Geografia",
+    "phrase": "GRAND CANYON EROSIONE MILIONI ANNI",
+    "description": "Colorado fiume"
+  },
+  {
+    "id": 428,
+    "category": "Geografia",
+    "phrase": "SIERRA NEVADA PICCO PIÙ ALTO SPAGNA",
+    "description": "Mulhacén andaluso"
+  },
+  {
+    "id": 429,
+    "category": "Letteratura",
+    "phrase": "VOLTAIRE SCRISSE CANDIDE OTTIMISMO",
+    "description": "Filosofo ironico"
+  },
+  {
+    "id": 430,
+    "category": "Musica",
+    "phrase": "ROUSSEAU CONTRATTO SOCIALE POPOLO",
+    "description": "Democrazia ginevrina"
+  },
+  {
+    "id": 431,
+    "category": "Geografia",
+    "phrase": "MONTESQUIEU DIVISIONE POTERI TRE",
+    "description": "Separazione poteri"
+  },
+  {
+    "id": 432,
+    "category": "Filosofia",
+    "phrase": "DESCARTES PENSO DUNQUE ESISTO",
+    "description": "Razionalismo francese"
+  },
+  {
+    "id": 433,
+    "category": "Filosofia",
+    "phrase": "KANT CRITICA RAGION PURA",
+    "description": "Filosofia illuminista"
+  },
+  {
+    "id": 434,
+    "category": "Filosofia",
+    "phrase": "NIETZSCHE DIO È MORTO SUPERUOMO",
+    "description": "Volontà potenza"
+  },
+  {
+    "id": 435,
+    "category": "Storia",
+    "phrase": "PLATONE CAVERNA OMBRE REALTÀ",
+    "description": "Accademia ateniese"
+  },
+  {
+    "id": 436,
+    "category": "Filosofia",
+    "phrase": "ARISTOTELE ALLIEVO DI PLATONE LOGICA",
+    "description": "Liceo macedone"
+  },
+  {
+    "id": 437,
+    "category": "Storia",
+    "phrase": "SOCRATE BERE CICUTA ATENE TRADITA",
+    "description": "Domande maieutiche"
+  },
+  {
+    "id": 438,
+    "category": "Storia",
+    "phrase": "CONFUCIO ARMONIA SOCIETÀ CINESE ANTICA",
+    "description": "Imperatori saggi"
+  },
+  {
+    "id": 439,
+    "category": "Musica",
+    "phrase": "BUDDHA SOTTO ALBO ALBERO ILLUMINATO",
+    "description": "Nirvana indiano"
+  }
+]
