@@ -45,6 +45,9 @@ const Wheel = ({ segments, onResult, disabled, jollyClaimed, jollyUsed }: WheelP
   const sizeRef = useRef(0);
   const [containerWidth, setContainerWidth] = useState(0);
   const jollyRemovedRef = useRef(jollyUsed);
+  const pointerDeflectionRef = useRef(0);
+  const pointerAngVelRef = useRef(0);
+  const lastCollidedPinRef = useRef(-1);
 
   function drawJesterHat(ctx: CanvasRenderingContext2D, x: number, y: number, size: number) {
     const s = size;
@@ -262,42 +265,96 @@ const Wheel = ({ segments, onResult, disabled, jollyClaimed, jollyUsed }: WheelP
   const animate = useCallback(() => {
     if (Math.abs(velocityRef.current) > 0.0008) {
       angleRef.current += velocityRef.current;
-      //velocityRef.current *= 0.988; // friction
       if(Math.abs(velocityRef.current) > 0.005)
-        velocityRef.current *= 0.994; // friction
+        velocityRef.current *= 0.994;
       else
-        velocityRef.current *= 0.980; // friction
+        velocityRef.current *= 0.980;
 
-      // Pointer spring effect - detect pin crossing
-      // Use the selected index to detect zone changes
-      const zone = getSelectedIndex();
-      if (zone !== lastPinZoneRef.current && pointerRef.current) {
-        velocityRef.current *= 0.99; // friction
-        lastPinZoneRef.current = zone;
-        // Limit tick a max ~6 volte/s (166ms)
-        //console.log(velocityRef.current);
-        if(velocityRef.current > 0.006)
-          playSoundThrottled('tick', 80);
-        else
-          playSound('tick');
-        const dir = velocityRef.current > 0 ? 1 : -1;
-        pointerRef.current.style.transform = `translateX(-50%) rotate(${-dir * 60}deg)`;
-        setTimeout(() => {
-          if (pointerRef.current) {
-            pointerRef.current.style.transform = `translateX(-50%) rotate(${-dir * 4}deg)`;
-            setTimeout(() => {
-              if (pointerRef.current) pointerRef.current.style.transform = 'translateX(-50%) rotate(0deg)';
-            }, 60);
-          }
-        }, 50);
+      // --- Physics-based pin-pointer collision ---
+      const segAngle = (2 * Math.PI) / SEGMENT_COUNT;
+
+      // Find the pin closest to the pointer (top center, angle = 0 in normalized space)
+      let closestDist = Infinity;
+      let closestOffset = 0;
+      let closestPin = -1;
+
+      for (let i = 0; i < SEGMENT_COUNT; i++) {
+        // Pin's angular offset from the pointer position (top)
+        let offset = (i * segAngle + angleRef.current) % (2 * Math.PI);
+        if (offset > Math.PI) offset -= 2 * Math.PI;
+        if (offset < -Math.PI) offset += 2 * Math.PI;
+        if (Math.abs(offset) < Math.abs(closestDist)) {
+          closestDist = offset;
+          closestOffset = offset;
+          closestPin = i;
+        }
+      }
+
+      // Collision zone — pointer tip covers a small angular range around the pin path
+      const collisionThreshold = 0.13; // radians
+      if (Math.abs(closestOffset) < collisionThreshold) {
+        const overlap = collisionThreshold - Math.abs(closestOffset);
+        const pushDirection = closestOffset > 0 ? -1 : 1;
+        // Force proportional to overlap squared for more realistic feel
+        const normalizedOverlap = overlap / collisionThreshold;
+        const force = normalizedOverlap * normalizedOverlap * 18;
+        pointerAngVelRef.current += pushDirection * force;
+
+        // Sound & friction on new pin contact
+        if (closestPin !== lastCollidedPinRef.current) {
+          lastCollidedPinRef.current = closestPin;
+          velocityRef.current *= 0.99;
+          if (Math.abs(velocityRef.current) > 0.006)
+            playSoundThrottled('tick', 80);
+          else
+            playSound('tick');
+        }
+      }
+
+      // Spring-damper physics for pointer returning to rest
+      const springK = 0.22;
+      const damping = 0.80;
+      pointerAngVelRef.current -= pointerDeflectionRef.current * springK;
+      pointerAngVelRef.current *= damping;
+      pointerDeflectionRef.current += pointerAngVelRef.current;
+      pointerDeflectionRef.current = Math.max(-65, Math.min(65, pointerDeflectionRef.current));
+
+      // Apply pointer transform directly (no CSS transition — physics drives it)
+      if (pointerRef.current) {
+        pointerRef.current.style.transition = 'none';
+        pointerRef.current.style.transform = `translateX(-50%) rotate(${pointerDeflectionRef.current}deg)`;
       }
 
       draw();
       animFrameRef.current = requestAnimationFrame(animate);
     } else {
       velocityRef.current = 0;
+
+      // Let pointer settle back to rest
+      const settlePointer = () => {
+        const springK = 0.22;
+        const damping = 0.80;
+        pointerAngVelRef.current -= pointerDeflectionRef.current * springK;
+        pointerAngVelRef.current *= damping;
+        pointerDeflectionRef.current += pointerAngVelRef.current;
+        if (pointerRef.current) {
+          pointerRef.current.style.transition = 'none';
+          pointerRef.current.style.transform = `translateX(-50%) rotate(${pointerDeflectionRef.current}deg)`;
+        }
+        if (Math.abs(pointerDeflectionRef.current) > 0.3 || Math.abs(pointerAngVelRef.current) > 0.1) {
+          requestAnimationFrame(settlePointer);
+        } else {
+          pointerDeflectionRef.current = 0;
+          pointerAngVelRef.current = 0;
+          if (pointerRef.current) {
+            pointerRef.current.style.transform = 'translateX(-50%) rotate(0deg)';
+          }
+          handleResult();
+        }
+      };
+
       draw();
-      handleResult();
+      settlePointer();
     }
   }, [draw, handleResult, getSelectedIndex]);
 
@@ -380,7 +437,7 @@ const Wheel = ({ segments, onResult, disabled, jollyClaimed, jollyUsed }: WheelP
           top: pointerTop,
           left: '50%',
           transform: 'translateX(-50%)',
-          transition: 'transform 0.2s ease-out',
+          transformOrigin: 'top center',
         }}
       >
         <svg width={pointerW} height={pointerH} viewBox="0 0 40 52" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))' }}>
