@@ -42,15 +42,66 @@ const sources: Record<string, string> = {
 
 const cache = new Map<string, HTMLAudioElement>();
 
+// --- Web Audio API per suono tick ---
+let audioCtx: AudioContext | null = null;
+let tickBuffer: AudioBuffer | null = null;
+let tickBufferLoaded = false;
+
+function getAudioContext() {
+    if (!audioCtx) {
+        const AudioCtx = (window.AudioContext || (window.hasOwnProperty('webkitAudioContext') ? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext : undefined));
+        if (AudioCtx) {
+            audioCtx = new AudioCtx();
+        }
+    }
+    return audioCtx;
+}
+
+async function loadTickBuffer() {
+    if (tickBufferLoaded) return;
+    try {
+        const ctx = getAudioContext();
+        const res = await fetch(sources.tick);
+        const arr = await res.arrayBuffer();
+        tickBuffer = await ctx.decodeAudioData(arr);
+        tickBufferLoaded = true;
+    } catch (e) {
+        tickBufferLoaded = false;
+    }
+}
+
+// Da chiamare in preloadSounds
+async function preloadTickWebAudio() {
+    await loadTickBuffer();
+}
+
+function playTickWebAudio({ volume = 1.0, rate = 1.0 } = {}) {
+    if (!tickBuffer || !audioCtx) return;
+    const ctx = audioCtx;
+    const src = ctx.createBufferSource();
+    src.buffer = tickBuffer;
+    src.playbackRate.value = rate;
+    const gain = ctx.createGain();
+    gain.gain.value = volume;
+    src.connect(gain).connect(ctx.destination);
+    src.start(0);
+}
+
 export function preloadSounds() {
     (Object.keys(sources) as string[]).forEach((k) => {
         const a = new Audio(sources[k]);
         a.preload = 'auto';
         cache.set(k, a);
     });
+    // Precarica anche il buffer tick per Web Audio
+    preloadTickWebAudio();
 }
 
 export function playSound(key: string, { volume = 1.0, rate = 1.0 } = {}) {
+    if (key === 'tick' && tickBufferLoaded && window.AudioContext) {
+        playTickWebAudio({ volume, rate });
+        return;
+    }
     const base = cache.get(key) ?? new Audio(sources[key]);
     // Clona per permettere sovrapposizione di suoni
     const a = base.cloneNode(true) as HTMLAudioElement;
