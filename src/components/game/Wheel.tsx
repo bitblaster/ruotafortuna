@@ -318,6 +318,14 @@ const Wheel = ({ segments, onResult, disabled, jollyClaimed, jollyUsed }: WheelP
     if (delta > Math.PI) delta -= 2 * Math.PI;
     if (delta < -Math.PI) delta += 2 * Math.PI;
 
+    // Permetti solo rotazione oraria (delta > 0)
+    if (delta <= 0) {
+      // Ignora movimento antiorario
+      lastDragAngleRef.current = angle;
+      lastDragTimeRef.current = performance.now();
+      return;
+    }
+
     angleRef.current += delta;
     const now = performance.now();
     const dt = now - lastDragTimeRef.current;
@@ -340,6 +348,12 @@ const Wheel = ({ segments, onResult, disabled, jollyClaimed, jollyUsed }: WheelP
       isSpinningRef.current = true;
       lastPinZoneRef.current = -1;
       animFrameRef.current = requestAnimationFrame(animate);
+      return;
+    }
+
+    // Permetti solo spin orario
+    if (velocityRef.current <= 0) {
+      velocityRef.current = 0;
       return;
     }
 
