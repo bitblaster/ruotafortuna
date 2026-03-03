@@ -28,6 +28,7 @@ export interface Player {
   roundScore: number;
   totalScore: number;
   hasJolly: boolean;
+  roundWins: number; // nuovo campo per contare i round vinti
 }
 
 export interface RoundConfig {

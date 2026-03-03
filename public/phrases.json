@@ -62,8 +62,8 @@
   {
     "id": 11,
     "category": "Musica",
-    "phrase": "BEETHOVEN ERA COMPLETAMENTE SORDO A CINQUANTA",
-    "description": "Tragedia del compositore tedesco"
+    "phrase": "BEETHOVEN COMPONEVA COMPLETAMENTE SORDO",
+    "description": "Abilità uniche con il pianoforte"
   },
   {
     "id": 12,
@@ -212,7 +212,7 @@
   {
     "id": 36,
     "category": "Arte",
-    "phrase": "RENOIR DIPINGEVA CON PENNELLI LEGATI ALLE MANI",
+    "phrase": "RENOIR USAVA PENNELLI LEGATI ALLE MANI",
     "description": "Artrite dell'impressionista anziano"
   },
   {
@@ -256,12 +256,6 @@
     "category": "Musica",
     "phrase": "PUCCINI MORÌ PRIMA DI FINIRE TURANDOT",
     "description": "Opera incompiuta del compositore italiano"
-  },
-  {
-    "id": 44,
-    "category": "Letteratura",
-    "phrase": "PROUST SCRISSE CERCANDO IL TEMPO PERDUTO A LETTO",
-    "description": "Metodo di lavoro dello scrittore francese"
   },
   {
     "id": 45,
@@ -360,12 +354,6 @@
     "description": "Aspetto borghese del surrealista belga"
   },
   {
-    "id": 61,
-    "category": "Letteratura",
-    "phrase": "DICKENS CAMMINAVA VENTI CHILOMETRI AL GIORNO",
-    "description": "Abitudine dello scrittore vittoriano"
-  },
-  {
     "id": 62,
     "category": "Letteratura",
     "phrase": "MANZONI RISCRISSE I PROMESSI SPOSI NELL'ARNO",
@@ -462,12 +450,6 @@
     "description": "Tragedia dell'espressionista astratto"
   },
   {
-    "id": 78,
-    "category": "Letteratura",
-    "phrase": "VERGA SCRISSE I MALAVOGLIA IN DIALETTO SICILIANO",
-    "description": "Scelta linguistica del verista italiano"
-  },
-  {
     "id": 79,
     "category": "Storia",
     "phrase": "LISZT FACEVA SVENIRE LE DONNE AI CONCERTI",
@@ -510,12 +492,6 @@
     "description": "Violenza nell'arte barocca femminile"
   },
   {
-    "id": 86,
-    "category": "Musica",
-    "phrase": "SCHUMANN IMPAZZÍ TENTANDO DI ANNEGARSI NEL RENO",
-    "description": "Follia del compositore romantico"
-  },
-  {
     "id": 87,
     "category": "Storia",
     "phrase": "POLLOCK GOCCIOLAVA COLORE SULLE TELE A TERRA",
@@ -546,18 +522,6 @@
     "description": "Longevità del maestro veneziano"
   },
   {
-    "id": 92,
-    "category": "Letteratura",
-    "phrase": "YEATS RICEVETTE IL NOBEL A SESSANTADUE ANNI",
-    "description": "Riconoscimento tardivo al poeta irlandese"
-  },
-  {
-    "id": 93,
-    "category": "Arte",
-    "phrase": "HOPPER DIPINSE SOLITUDINE URBANA AMERICANA",
-    "description": "Tema ricorrente del realista moderno"
-  },
-  {
     "id": 94,
     "category": "Letteratura",
     "phrase": "PIRANDELLO VINSE IL NOBEL NEL TRENTAQUATTRO",
@@ -570,40 +534,22 @@
     "description": "Ritagli colorati dell'artista anziano"
   },
   {
-    "id": 96,
-    "category": "Letteratura",
-    "phrase": "CERVANTES PERSE UN BRACCIO IN BATTAGLIA NAVALE",
-    "description": "Ferita dello scrittore spagnolo"
-  },
-  {
     "id": 97,
     "category": "Arte",
     "phrase": "VERMEER DIPINSE SOLO QUARANTACINQUE QUADRI NOTI",
     "description": "Produzione limitata del maestro olandese"
   },
   {
-    "id": 98,
-    "category": "Letteratura",
-    "phrase": "HEMINGWAY VINSE IL NOBEL NEL CINQUANTAQUATTRO",
-    "description": "Premio allo scrittore americano"
-  },
-  {
     "id": 99,
     "category": "Arte",
     "phrase": "FRANCIS BACON DIPINGEVA CARNE E VIOLENZA",
-    "description": "Espressionismo brutale del britannico"
+    "description": "Espressionismo ironico"
   },
   {
     "id": 100,
     "category": "Letteratura",
     "phrase": "STEINBECK SCRISSE FURORE DURANTE LA DEPRESSIONE",
     "description": "Capolavoro sociale dello scrittore americano"
-  },
-  {
-    "id": 101,
-    "category": "Musica",
-    "phrase": "HOCKNEY DIPINSE PISCINE CALIFORNIANE AZZURRE",
-    "description": "Tema iconico del pop artist britannico"
   },
   {
     "id": 102,
@@ -774,12 +720,6 @@
     "description": "Provocazione del Young British Artist"
   },
   {
-    "id": 130,
-    "category": "Musica",
-    "phrase": "CALVINO SCRISSE LE CITTÀ INVISIBILI TARDI",
-    "description": "Opera metafisica dello scrittore italiano"
-  },
-  {
     "id": 131,
     "category": "Cultura Generale",
     "phrase": "CATTELAN APPESE IL PAPA COLPITO DA METEORITE",
@@ -822,12 +762,6 @@
     "description": "Scala epica del fotografo tedesco"
   },
   {
-    "id": 138,
-    "category": "Letteratura",
-    "phrase": "NAIPAUL SCRISSE DELL'IDENTITÀ COLONIALE CARAIBICA",
-    "description": "Tema del Nobel trinidadiano"
-  },
-  {
     "id": 139,
     "category": "Arte",
     "phrase": "KAPOOR SCOLPÌ UNA NUVOLA IN ACCIAIO A CHICAGO",
@@ -850,12 +784,6 @@
     "category": "Letteratura",
     "phrase": "AUSTER SCRISSE LA TRILOGIA DI NEW YORK",
     "description": "Metafiction dello scrittore americano"
-  },
-  {
-    "id": 143,
-    "category": "Cultura Generale",
-    "phrase": "GONZALEZ-TORRES FECE PILE DI CARAMELLE GRATIS",
-    "description": "Arte partecipativa cubano-americana"
   },
   {
     "id": 144,
@@ -894,22 +822,10 @@
     "description": "Performance estrema serba"
   },
   {
-    "id": 150,
-    "category": "Letteratura",
-    "phrase": "KNAUSGARD SCRISSE SEIMILA PAGINE SULLA SUA VITA",
-    "description": "Autofiction dello scrittore norvegese"
-  },
-  {
     "id": 151,
     "category": "Storia",
     "phrase": "KUSAMA COPRE TUTTO CON POIS COLORATI",
     "description": "Ossessione della giapponese nonagenaria"
-  },
-  {
-    "id": 152,
-    "category": "Letteratura",
-    "phrase": "MITCHELL SCRISSE L'ATLANTE DELLE NUVOLE COMPLESSO",
-    "description": "Struttura del romanzo britannico"
   },
   {
     "id": 153,
@@ -922,12 +838,6 @@
     "category": "Letteratura",
     "phrase": "ISHIGURO SCRISSE DEI CLONI IN UN COLLEGIO",
     "description": "Distopia del Nobel britannico-giapponese"
-  },
-  {
-    "id": 155,
-    "category": "Cultura Generale",
-    "phrase": "GORMLEY SPARSE CENTOMILA STATUE DI SE STESSO",
-    "description": "Installazione dell'artista britannico"
   },
   {
     "id": 156,
@@ -966,34 +876,16 @@
     "description": "Record per artista vivente"
   },
   {
-    "id": 162,
-    "category": "Letteratura",
-    "phrase": "BOLAÑO SCRISSE DETECTIVE SELVAGGI IN MESSICO",
-    "description": "Capolavoro dello scrittore cileno"
-  },
-  {
     "id": 163,
     "category": "Musica",
     "phrase": "HIRST VENDETTE UN TESCHIO DI DIAMANTI",
     "description": "Opera più costosa di artista vivente"
   },
   {
-    "id": 164,
-    "category": "Letteratura",
-    "phrase": "FRANZEN SCRISSE LE CORREZIONI SULLA FAMIGLIA",
-    "description": "Saga americana contemporanea"
-  },
-  {
     "id": 165,
     "category": "Storia",
     "phrase": "SERRA PIEGA LASTRE D'ACCIAIO DI TONNELLATE",
     "description": "Sculture monumentali americane"
-  },
-  {
-    "id": 166,
-    "category": "Letteratura",
-    "phrase": "DELILLO SCRISSE DELL'ASSASSINIO DI KENNEDY EPICAMENTE",
-    "description": "Romanzo storico dello scrittore americano"
   },
   {
     "id": 167,
@@ -1006,18 +898,6 @@
     "category": "Letteratura",
     "phrase": "ROTH SCRISSE PASTORAL AMERICANA SUL FALLIMENTO",
     "description": "Trilogia dello scrittore del New Jersey"
-  },
-  {
-    "id": 169,
-    "category": "Arte",
-    "phrase": "ANSELM KIEFER USA CENERE E STORIA TEDESCA",
-    "description": "Memoria nel pittore contemporaneo"
-  },
-  {
-    "id": 170,
-    "category": "Letteratura",
-    "phrase": "WALLACE SCRISSE INFINITE JEST DI MILLE PAGINE",
-    "description": "Capolavoro postmoderno americano"
   },
   {
     "id": 171,
@@ -1050,12 +930,6 @@
     "description": "Sperimentazione del pittore tedesco"
   },
   {
-    "id": 176,
-    "category": "Letteratura",
-    "phrase": "WHITEHEAD VINSE IL PULITZER PER FERROVIA SOTTERRANEA",
-    "description": "Premio allo scrittore afroamericano"
-  },
-  {
     "id": 177,
     "category": "Arte",
     "phrase": "RICHTER DIPINSE FOTO SFOCATE E ASTRAZIONI",
@@ -1072,24 +946,6 @@
     "category": "Cultura Generale",
     "phrase": "WOOL FA GRAFFITI STENCIL SU TELE BIANCHE",
     "description": "Minimalismo urbano americano"
-  },
-  {
-    "id": 180,
-    "category": "Letteratura",
-    "phrase": "FERRANTE SCRISSE L'AMICA GENIALE IN QUATTRO VOLUMI",
-    "description": "Tetralogia napoletana di successo"
-  },
-  {
-    "id": 181,
-    "category": "Arte",
-    "phrase": "DOIG DIPINGE PAESAGGI ONIRICI CARAIBICI SCOZZESI",
-    "description": "Fusione del pittore contemporaneo"
-  },
-  {
-    "id": 182,
-    "category": "Letteratura",
-    "phrase": "COELHO VENDETTE MILIONI DI COPIE DI ALCHIMISTA",
-    "description": "Successo globale dello scrittore brasiliano"
   },
   {
     "id": 183,
@@ -1164,34 +1020,10 @@
     "description": "Origine del bestseller erotico"
   },
   {
-    "id": 195,
-    "category": "Cultura Generale",
-    "phrase": "WOOL CANCELLA E RISCRIVE PAROLE IN NERO",
-    "description": "Processo pittorico dello stencil artist"
-  },
-  {
     "id": 196,
     "category": "Letteratura",
     "phrase": "MEYER VENDETTE MILIONI DI COPIE DI TWILIGHT",
     "description": "Fenomeno della scrittrice mormona"
-  },
-  {
-    "id": 197,
-    "category": "Cultura Generale",
-    "phrase": "WALL FA FOTOGRAFIE GRANDI COME QUADRI BAROCCHI",
-    "description": "Tableaux del fotografo canadese"
-  },
-  {
-    "id": 198,
-    "category": "Letteratura",
-    "phrase": "GREEN SCRISSE COLPA DELLE STELLE SUGLI ADOLESCENTI",
-    "description": "Young adult dello scrittore americano"
-  },
-  {
-    "id": 199,
-    "category": "Musica",
-    "phrase": "PRINCE FOTOGRAFA FOTOGRAFIE ALTRUI E LE RIVENDE",
-    "description": "Appropriazione controversa americana"
   },
   {
     "id": 200,
@@ -1206,15 +1038,9 @@
     "description": "Tableaux vivants dell'artista italiana"
   },
   {
-    "id": 202,
-    "category": "Letteratura",
-    "phrase": "VERONICA ROTH VENDETTE DIVERGENT A VENTIDUE ANNI",
-    "description": "Successo precoce della scrittrice distopica"
-  },
-  {
     "id": 203,
-    "category": "Musica",
-    "phrase": "MURAKAMI TAKASHI FA FIORI SORRIDENTI COLORATI",
+    "category": "Arte",
+    "phrase": "TAKASHI DIPINGE FIORI SORRIDENTI COLORATI",
     "description": "Superflat del giapponese pop"
   },
   {
@@ -1284,28 +1110,10 @@
     "description": "Avventura del condottiero romano"
   },
   {
-    "id": 215,
-    "category": "Cultura Generale",
-    "phrase": "LA TERRA PESA SEIMILA MILIARDI DI MILIARDI DI TONNELLATE",
-    "description": "Massa del nostro pianeta"
-  },
-  {
     "id": 216,
     "category": "Geografia",
     "phrase": "L'ANTARTIDE È IL DESERTO PIÙ GRANDE DEL MONDO",
     "description": "Definizione geografica del continente"
-  },
-  {
-    "id": 217,
-    "category": "Storia",
-    "phrase": "EDISON AVEVA MILLE E NOVANTATRE BREVETTI REGISTRATI",
-    "description": "Prolificità dell'inventore americano"
-  },
-  {
-    "id": 218,
-    "category": "Cultura Generale",
-    "phrase": "NETTUNO IMPIEGA CENTOsessantacinque ANNI PER ORBITARE",
-    "description": "Periodo del pianeta lontano"
   },
   {
     "id": 219,

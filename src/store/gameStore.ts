@@ -96,8 +96,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   initGame: (players, rounds, phrases, hideCalledLetters = false) => {
     const usedIds: number[] = JSON.parse(localStorage.getItem('usedPhraseIds') || '[]');
+    // Inizializza roundWins a 0 per ogni giocatore
+    const playersWithWins = players.map(p => ({ ...p, roundWins: 0 }));
     set({
-      players,
+      players: playersWithWins,
       rounds,
       phrases,
       usedPhraseIds: usedIds,
@@ -108,7 +110,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   },
 
   startRound: (forcePhraseId?: number) => {
-    const { rounds, currentRound, phrases, usedPhraseIds } = get();
+    const { rounds, currentRound, phrases, usedPhraseIds, players } = get();
     const round = rounds[currentRound];
 
     let phrase: Phrase | undefined;
@@ -135,12 +137,27 @@ export const useGameStore = create<GameStore>((set, get) => ({
     const newUsedIds = [...get().usedPhraseIds, phrase.id];
     localStorage.setItem('usedPhraseIds', JSON.stringify(newUsedIds));
 
+    // Scegli il primo giocatore
+    let startingPlayerIndex = 0;
+    if (currentRound === 0) {
+      // Primo round: casuale tra tutti
+      startingPlayerIndex = Math.floor(Math.random() * players.length);
+    } else {
+      // Successivi: casuale tra chi ha meno roundWins
+      const minWins = Math.min(...players.map(p => p.roundWins));
+      const candidates = players
+        .map((p, i) => ({ i, wins: p.roundWins }))
+        .filter(p => p.wins === minWins)
+        .map(p => p.i);
+      startingPlayerIndex = candidates[Math.floor(Math.random() * candidates.length)];
+    }
+
     set({
       currentPhrase: phrase,
       usedPhraseIds: newUsedIds,
       gamePhase: 'playing',
       turnPhase: 'awaiting-action',
-      currentPlayerIndex: 0,
+      currentPlayerIndex: startingPlayerIndex,
       revealedLetters: [],
       usedConsonants: [],
       usedVowels: [],
@@ -165,7 +182,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
         set({ jollyReason: 'bancarotta', turnPhase: 'jolly-prompt', message: `Bancarotta! ${player.name}, vuoi usare il Jolly?` });
       } else {
         const np = [...players];
-        np[currentPlayerIndex] = { ...player, roundScore: 0 };
+        np[currentPlayerIndex] = { ...player, roundScore: 0, totalScore: 0 };
         set({ players: np, message: `Bancarotta! ${player.name} perde tutto!` });
         setTimeout(() => get().nextPlayer(), ERROR_DURATION);
       }
@@ -203,7 +220,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
       if(isExpressMode) {
         setTimeout(() => playSound('bankrupt'), ERROR_DURATION);
         const np = [...players];
-        np[currentPlayerIndex] = {...players[currentPlayerIndex], roundScore: 0};
+        np[currentPlayerIndex] = {...players[currentPlayerIndex], roundScore: 0, totalScore: 0};
         set({
           players: np,
           isExpressMode: false,
@@ -272,7 +289,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
         if(isExpressMode) {
           setTimeout(() => playSound('bankrupt'), ERROR_DURATION);
           const np = [...players];
-          np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0 };
+          np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0, totalScore: 0 };
           set({
             players: np,
             isExpressMode: false,
@@ -336,12 +353,12 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
     if (jollyReason === 'bancarotta') {
       const np = [...players];
-      np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0 };
+      np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0, totalScore: 0 };
       set({ players: np, message: `Bancarotta! ${players[currentPlayerIndex].name} perde tutto!` });
       setTimeout(() => get().nextPlayer(), ERROR_DURATION);
     } else if(isExpressMode) {
       const np = [...players];
-      np[currentPlayerIndex] = {...players[currentPlayerIndex], roundScore: 0};
+      np[currentPlayerIndex] = {...players[currentPlayerIndex], roundScore: 0, totalScore: 0};
       set({
         players: np,
         isExpressMode: false,
@@ -370,6 +387,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     const np = players.map((p, i) => ({
       ...p,
       totalScore: i === currentPlayerIndex ? p.totalScore + p.roundScore : p.totalScore,
+      roundWins: i === currentPlayerIndex ? (p.roundWins || 0) + 1 : p.roundWins || 0,
     }));
     const allLetters = currentPhrase
       ? [...new Set([...currentPhrase.phrase].filter((c) => c !== ' ').map((c) => normalizeChar(c)))]
@@ -494,7 +512,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
       if(isExpressMode) {
         const np = [...players];
-        np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0 };
+        np[currentPlayerIndex] = { ...players[currentPlayerIndex], roundScore: 0, totalScore: 0 };
         set({
           players: np,
           isExpressMode: false,
